@@ -1,0 +1,16 @@
+{
+  "artists": [
+    { "name": "NyanCat / NyanNyanStudio", "role": "artist", "url": "https://medium.com/@donctun/the-story-of-nyannyanstudio-78d2a2ed50e7", "projects": ["Azumi", "DfinityGangs"] },
+    { "name": "Jonathan Ball", "role": "artist", "url": "https://entrepot.app/marketplace/poked", "projects": ["Poked Bots"], "note": "Acclaimed digital artist, Ultimate Master Bot 3000 ICP" },
+    { "name": "Ludo", "role": "artist", "url": "https://medium.com/dfinity/btc-flower-generative-nfts-on-the-internet-computer-bloom-into-dao-559ffc78cb69", "projects": ["BTC Flower"], "note": "Paris-based street artist" }
+  ],
+  "musicians": [
+    { "name": "Malcolm Yang", "role": "co-founder", "url": "https://www.itoka.xyz/", "projects": ["ITOKA"] },
+    { "name": "Bonsai Radio", "role": "streaming", "url": "https://t3kno-logic.xyz", "projects": ["Bonsai Radio Streaming Widget"], "note": "ICP-native music streaming" }
+  ],
+  "developers": [
+    { "name": "Dominic Williams", "role": "founder", "url": "https://dfinity.org", "projects": ["DFINITY", "Internet Computer"] },
+    { "name": "Demergent Labs", "role": "team", "url": "https://demergent-labs.github.io/azle/", "projects": ["Azle", "Kybra"] },
+    { "name": "Toniq Labs", "role": "team", "url": "https://entrepot.app", "projects": ["Entrepot", "Rise of the Magni", "Stoic", "Cronic"] }
+  ]
+}

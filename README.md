@@ -33,6 +33,33 @@ bonsai-registry/
 └── README.md        # This file
 ```
 
+## Registry Export & Sync
+
+The `index.html` registry (especially the ICP section) is the source of truth. To keep `bonsai-registry-export-2026-03-05.json` in sync for import into your application, run:
+
+```bash
+npm run sync-export
+```
+
+Run this after any changes to the ICP section in `index.html`.
+
+## Deep Dive: Comprehensive ICP Ecosystem Data
+
+For a comprehensive scrape of ICP projects, news, NFT collections, and more, run:
+
+```bash
+npm run deep-dive
+```
+
+This aggregates data from:
+- **ICP Ecosystem** (official 82+ dApps)
+- **Awesome Internet Computer** (GitHub curated list)
+- **DFINITY Blog & News** (announcements, partnerships)
+- **DGDG NFT Collections** (curated list)
+- **Developer Grants** (grant recipients)
+
+Output: `bonsai-registry-extended.json` with projects, news, and nftCollections for import into your application.
+
 ## Getting Started
 
 *Coming soon - development setup instructions will be added as the project develops.*

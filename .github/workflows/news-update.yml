@@ -1,0 +1,40 @@
+# Update bonsai-registry-news.json on a schedule (every 4 hours)
+# Enables "live-ish" news in the Bonsai Registry
+name: News Update
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Every 4 hours
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch news and update
+        run: node scripts/news-aggregator.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bonsai-registry-news.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update news feed [automated]"
+            git push
+          fi

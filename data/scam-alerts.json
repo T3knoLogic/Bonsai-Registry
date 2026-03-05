@@ -1,0 +1,26 @@
+[
+  {
+    "title": "ICP Scam Alert: Transaction Address Spoofing",
+    "url": "https://forum.dfinity.org/t/icp-scam-alert-fraudsters-exploit-similar-transaction-addresses-mimicking-prefixes-and-suffixes-to-deceive-users/40298",
+    "description": "Fraudsters create addresses mimicking legitimate prefixes/suffixes to deceive users.",
+    "severity": "high",
+    "source": "forum.dfinity.org",
+    "publishedAt": "2024"
+  },
+  {
+    "title": "Security Advisory: SIW E/B/S Prone to Phishing",
+    "url": "https://forum.dfinity.org/t/security-advisory-sign-in-with-ethereum-bitcoin-solana-siw-e-b-s-prone-to-phishing/64050",
+    "description": "Sign-In with Ethereum/Bitcoin/Solana implementations prone to phishing.",
+    "severity": "high",
+    "source": "forum.dfinity.org",
+    "publishedAt": "2025"
+  },
+  {
+    "title": "Candid Security Advisory - Upgrade Required",
+    "url": "https://internetcomputer.org/blog/news-and-updates/candid-security-advisory",
+    "description": "Candid library vulnerability; upgrade to 0.9.10+ required.",
+    "severity": "medium",
+    "source": "internetcomputer.org",
+    "publishedAt": "2024"
+  }
+]

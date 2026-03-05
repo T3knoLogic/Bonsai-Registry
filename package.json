@@ -1,0 +1,28 @@
+{
+  "name": "bonsai-registry",
+  "version": "1.0.0",
+  "description": "A decentralized registry for bonsai tree NFTs and related digital assets on the Internet Computer (IC) network.",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sync-export": "node scripts/sync-export.js",
+    "deep-dive": "node scripts/deep-dive.js",
+    "update-export": "node scripts/update-export.js",
+    "news": "node scripts/news-aggregator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T3kNoLogic/Bonsai-Registry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/T3kNoLogic/Bonsai-Registry/issues"
+  },
+  "homepage": "https://github.com/T3kNoLogic/Bonsai-Registry#readme"
+}

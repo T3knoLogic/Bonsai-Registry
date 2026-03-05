@@ -1,0 +1,16 @@
+[
+  {
+    "name": "ORIGYN",
+    "description": "RWA protocol for luxury goods, fine art, collectibles. Digital twins + ML authentication.",
+    "url": "https://www.origyn.ch/",
+    "categories": ["commerce", "nft", "rwa"],
+    "tier": 2
+  },
+  {
+    "name": "ORIGYN ICRC7/ICRC37",
+    "description": "NFT standard for certified digital ownership, luxury authentication, event tickets.",
+    "url": "https://origyn.medium.com/origyn-2024-c939b4c510ef",
+    "categories": ["nft", "rwa", "tools"],
+    "tier": 2
+  }
+]

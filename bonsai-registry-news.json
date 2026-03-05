@@ -1,0 +1,632 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-03-05T23:06:05.516Z",
+  "news": [
+    {
+      "id": 1,
+      "title": "Internet Computer Unleashes New Era of Speed, Developer Ease, and Onchain Storage",
+      "url": "https://medium.com/dfinity/internet-computer-unleashes-new-era-of-speed-developer-ease-and-onchain-storage-with-major-d0ebcfa5b0e4",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "upgrades",
+        "tokamak",
+        "beryllium"
+      ],
+      "fetchedAt": 1772751965516
+    },
+    {
+      "id": 2,
+      "title": "ICP HUB USA Launches, Supporting Global Expansion",
+      "url": "https://www.prweb.com/releases/icp-hub-usa-launches-supporting-global-expansion-of-the-internet-computer-protocol-icp-302383060.html",
+      "source": "prweb",
+      "ecosystem": "icp",
+      "tags": [
+        "hub",
+        "usa"
+      ],
+      "fetchedAt": 1772751965516
+    },
+    {
+      "id": 3,
+      "title": "Validation Cloud and DFINITY Partner for Enterprise Blockchain Analytics",
+      "url": "https://blog.validationcloud.io/dfinity-icp-elliptic",
+      "source": "validationcloud",
+      "ecosystem": "icp",
+      "tags": [
+        "partnership",
+        "enterprise"
+      ],
+      "fetchedAt": 1772751965516
+    },
+    {
+      "id": 4,
+      "title": "DFINITY Launches $5M DeAI Grant for Decentralized AI on ICP",
+      "url": "https://www.prnewswire.com/news-releases/dfinity-foundation-launches-5-million-grant-to-support-decentralized-ai-on-the-internet-computer-blockchain-301877065.html",
+      "source": "prnewswire",
+      "ecosystem": "icp",
+      "tags": [
+        "grant",
+        "ai"
+      ],
+      "fetchedAt": 1772751965516
+    },
+    {
+      "id": 5,
+      "title": "BTC Flower: Generative NFTs on ICP Bloom Into DAO",
+      "url": "https://medium.com/dfinity/btc-flower-generative-nfts-on-the-internet-computer-bloom-into-dao-559ffc78cb69",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "nft",
+        "dao"
+      ],
+      "fetchedAt": 1772751965516
+    },
+    {
+      "id": 6,
+      "title": "Developer weekly update | Internet Computer",
+      "url": "https://internetcomputer.org/blog",
+      "source": "internetcomputer.org",
+      "ecosystem": "icp",
+      "tags": [
+        "developer",
+        "updates"
+      ],
+      "fetchedAt": 1772751965516
+    },
+    {
+      "id": 7,
+      "title": "We built a tool in CycleOps to help answer your Mission70 cost questions",
+      "url": "https://forum.dfinity.org/t/we-built-a-tool-in-cycleops-to-help-answer-your-mission70-cost-questions/65134",
+      "publishedAt": "Thu, 05 Mar 2026 17:10:07 +0000",
+      "description": "Memory costs on ICP are changing, so you might be thinking “what does this mean for my cycle bill”?\nWe were wondering the same thing  , so we built a dedicated Memory Price Change view into CycleOps that teams can use to quickly understand the impact of the upcoming ICP protocol memory pricing updat",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 8,
+      "title": "European Subnet Experiencing Timeouts on Update Messages",
+      "url": "https://forum.dfinity.org/t/european-subnet-experiencing-timeouts-on-update-messages/65121",
+      "publishedAt": "Thu, 05 Mar 2026 11:48:50 +0000",
+      "description": "Since today, I have noticed that update requests on the European subnet are either not processed or take a very long time before eventually timing out.\n\nReject text: Ingress message 0x29eb1b70336f98a1a811cff34f4fe9e0f45421216799203118d38547701d6d06 timed out waiting to start executing.\n\nYou can test",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 9,
+      "title": "A Really fully on-chain trading system is coming on #ICP",
+      "url": "https://forum.dfinity.org/t/a-really-fully-on-chain-trading-system-is-coming-on-icp/65119",
+      "publishedAt": "Thu, 05 Mar 2026 10:15:12 +0000",
+      "description": "CEX Experience, DEX Trust!\nS³,  a fully on-chain trading system is coming on #ICP\nStay tuned V3!\n\nExperience v2:\n\n  \n      \n\n      vfn5g-waaaa-aaaai-q36nq-cai.icp0.io\n  \n\n  \n    \n\nSSS v2 • StableSwap\n\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\nJoin and support us!\n            7 posts - 4 participants\n            R",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 10,
+      "title": "220 Credits Expired",
+      "url": "https://forum.dfinity.org/t/220-credits-expired/65116",
+      "publishedAt": "Thu, 05 Mar 2026 08:12:54 +0000",
+      "description": "Hey ICP fam,\nHad been following Caffeine from inception and through to launch and because of this, was awarded 220 Caffeine Credits. Was busy at the time and only this week began to develop my planned Caffeine App - a new kind of multimedia platform. Unforunately, my 220 free credits have expired an",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 11,
+      "title": "Id.ai can&#39;t add existing identity",
+      "url": "https://forum.dfinity.org/t/id-ai-cant-add-existing-identity/65112",
+      "publishedAt": "Wed, 04 Mar 2026 19:09:55 +0000",
+      "description": "Im having a few issues with the new Id.ai Internet Identity\nI have a new identity (not old with number) that only exists for my phone right now and am trying to get it usable on my desktop as well\nFirst, doing Identity Dropdown → Use another Identity → Continue with passkey → Use existing identity, ",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 12,
+      "title": "Percentage fees for ICRC-1 tokens",
+      "url": "https://forum.dfinity.org/t/percentage-fees-for-icrc-1-tokens/65107",
+      "publishedAt": "Wed, 04 Mar 2026 17:50:19 +0000",
+      "description": "Hello everyone!\nI’ve been tinkering with one idea for a while, but for it to work it is best if the token for the project would have percentage fees instead of flat fees, like its currently done.\nDoes anybody knows a way for enabling this feature for ICRC-1 tokens? Without breaking the standard.\n   ",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 13,
+      "title": "Introducing: Waifu.ai, a multi lmm suite with a small agent",
+      "url": "https://forum.dfinity.org/t/introducing-waifu-ai-a-multi-lmm-suite-with-a-small-agent/65104",
+      "publishedAt": "Wed, 04 Mar 2026 14:55:45 +0000",
+      "description": "\nTendys dao has launched a small suite of on chain lmms and has an agent using the dfinity lmm canister.\nThe agent has governance perms, can make proposals, adjust sns data, and basicly interact with the dao. The agent also can manage a shared portfolio of tokens, balancing them every hour. The port",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 14,
+      "title": "Kasane Chain (Testnet Alpha): EVM Execution Canister on ICP",
+      "url": "https://forum.dfinity.org/t/kasane-chain-testnet-alpha-evm-execution-canister-on-icp/65096",
+      "publishedAt": "Wed, 04 Mar 2026 08:30:41 +0000",
+      "description": "Hello everyone — this is an introduction to Kasane Chain. We have two simple goals:\n\nStrengthen the connection between ICP and EVM, so EVM tools and workflows can be used on ICP more naturally.\nImprove the developer experience (DX) for building and operating EVM applications on ICP — including usabi",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 15,
+      "title": "Struggling with Local IC Token Faucet Setup. Need Help",
+      "url": "https://forum.dfinity.org/t/struggling-with-local-ic-token-faucet-setup-need-help/65079",
+      "publishedAt": "Tue, 03 Mar 2026 18:00:12 +0000",
+      "description": "I am working on a React + DFX token faucet project on the Internet Computer. My project setup includes:\n\n\n\n\nComponent\nDetails\n\n\n\n\nBackend\nMotoko canister called token with functions: payOut, transfer, transferFrom\n\n\nFrontend\nReact app inside src/token_assets bundled with Webpack\n\n\nCurrent Goal\nDeplo",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 16,
+      "title": "Internet Identity – ability to rename identities after v2 migration",
+      "url": "https://forum.dfinity.org/t/internet-identity-ability-to-rename-identities-after-v2-migration/65078",
+      "publishedAt": "Tue, 03 Mar 2026 17:02:08 +0000",
+      "description": "@aterga\nHello there !\nAfter the switch to Internet Identity v2, I ended up with two identities sharing the same display name — and I know I’m not alone.\nOn my Mac, some apps are linked to Johan, and others to… Johan.\nYou can imagine the confusion.\nWithout a way to rename identities, cleaning this up",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 17,
+      "title": "New Project / Deterministic Capital Protocol (ICP)",
+      "url": "https://forum.dfinity.org/t/new-project-deterministic-capital-protocol-icp/65053",
+      "publishedAt": "Mon, 02 Mar 2026 18:47:25 +0000",
+      "description": "Seeking Motoko / WebAssembly Developer — Deterministic Capital Protocol (ICP)\nHello everyone,\nI’m currently preparing to commission the build of an ICP-native deterministic capital protocol and am seeking experienced Motoko / WebAssembly developers (or teams) to review a detailed engineering specifi",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 18,
+      "title": "Ic-dbms 0.6 - What&#39;s New Since Launch",
+      "url": "https://forum.dfinity.org/t/ic-dbms-0-6-whats-new-since-launch/65051",
+      "publishedAt": "Mon, 02 Mar 2026 16:47:15 +0000",
+      "description": "Hello everyone,\nI’m the author of ic-dbms, an open-source Rust framework for building relational databases inside Internet Computer canisters. I released 0.1\nBack in December with the core (CRUD, transactions, foreign keys, ACLs, stable memory) and have been shipping fast ever since. Here’s a recap\n",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 19,
+      "title": "Request for DFINITY Team Assistance in Investigating Potential Issues with the lhg73 Subnet",
+      "url": "https://forum.dfinity.org/t/request-for-dfinity-team-assistance-in-investigating-potential-issues-with-the-lhg73-subnet/64921",
+      "publishedAt": "Sat, 28 Feb 2026 15:45:26 +0000",
+      "description": "We would greatly appreciate it if the DFINITY team could assist in investigating whether there may be an issue with the lhg73 subnet. Thank you very much in advance for your support. @sat\nCurrently, most trading pairs on ICPSwap are experiencing swap failures. Based on our preliminary investigation,",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 20,
+      "title": "What advanced NFT Development Services do you offer for marketplace launch?",
+      "url": "https://forum.dfinity.org/t/what-advanced-nft-development-services-do-you-offer-for-marketplace-launch/64854",
+      "publishedAt": "Sat, 28 Feb 2026 06:42:13 +0000",
+      "description": "Hello,\nWe offer advanced NFT Development services that help businesses launch a secure, scalable, and future-ready NFT marketplace. Our focus is on performance, security, and smooth user experience from day one.\n\n\nCustom NFT marketplace development with scalable and cloud-ready architecture\n\n\nSecure",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 21,
+      "title": "Delete Unused Canisters and Consolidate Cycles to Avoid Recurring Fees",
+      "url": "https://forum.dfinity.org/t/delete-unused-canisters-and-consolidate-cycles-to-avoid-recurring-fees/64847",
+      "publishedAt": "Sat, 28 Feb 2026 00:17:41 +0000",
+      "description": "Hey devs,\nWith the recent introduction of recurring canister fees on the Internet Computer (IC) protocol, it’s more important than ever to keep your canister portfolio lean. These fees can quietly drain cycles from idle or unused canisters, leading to unnecessary asset losses over time. The good new",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 22,
+      "title": "Find ICRC transaction by memo?",
+      "url": "https://forum.dfinity.org/t/find-icrc-transaction-by-memo/64833",
+      "publishedAt": "Fri, 27 Feb 2026 18:13:18 +0000",
+      "description": "I couldn’t find any easy way to find a transaction by memo via the ICRC1 interface. Am I missing something?\n            4 posts - 2 participants\n            Read full topic\n          ]]>",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 23,
+      "title": "Ic-asset-router — file-based HTTP routing with automatic response certification for ICP canisters",
+      "url": "https://forum.dfinity.org/t/ic-asset-router-file-based-http-routing-with-automatic-response-certification-for-icp-canisters/64827",
+      "publishedAt": "Fri, 27 Feb 2026 12:05:25 +0000",
+      "description": "I just released ic-asset-router v0.1.1, a Rust library that brings file-based routing conventions — like Next.js and SvelteKit — to ICP canisters. This is a personal side project, not an official DFINITY crate. Drop handler files into src/routes/, deploy, and your endpoints are live with automatic r",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 24,
+      "title": "Motoko - ICRC 1,2,3,4,21,106,107,Index-NG, and Rosetta",
+      "url": "https://forum.dfinity.org/t/motoko-icrc-1-2-3-4-21-106-107-index-ng-and-rosetta/64819",
+      "publishedAt": "Thu, 26 Feb 2026 18:10:18 +0000",
+      "description": "We’ve updated the ICRC Fungible token suite to support all the latest goodies, including Mixins and the Core libraries!\n\n  \n\n      github.com\n  \n\n  \n    \n  \n\n  GitHub - icdevsorg/ICRC_fungible: ICRC1, ICRC2, ICRC3, ICRC4, and ICRC10 fungible...\n\n    ICRC1, ICRC2, ICRC3, ICRC4, and ICRC10 fungible to",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 25,
+      "title": "Updated Timer Tool For Motoko",
+      "url": "https://forum.dfinity.org/t/updated-timer-tool-for-motoko/64815",
+      "publishedAt": "Thu, 26 Feb 2026 14:47:00 +0000",
+      "description": "We have updated the timerTool to core in v0.2.0!\nFeatures\n\n\nSchedule timer events with custom parameters\n\n\nSynchronous and asynchronous action support\n\n\nAutomatic timer reconstitution after upgrades\n\n\nSafety timers for trap recovery\n\n\nAutomatic initialization via ClassPlus\n\n\nThe new Repo is at: GitH",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 26,
+      "title": "PropXchain - UK Property Conveyancing on ICP (Looking for Community Feedback)",
+      "url": "https://forum.dfinity.org/t/propxchain-uk-property-conveyancing-on-icp-looking-for-community-feedback/64776",
+      "publishedAt": "Thu, 26 Feb 2026 10:54:41 +0000",
+      "description": "Hey everyone,\nI’m building PropXchain - a platform that puts UK property transactions on the Internet Computer. Before I go down the NNS funding route, I’d really value some honest feedback from the community.\nWhat’s the problem?\nUK property transactions are honestly a mess. You’ve got solicitors, e",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 27,
+      "title": "Icycast.com ICRC37 NFT Marketplace",
+      "url": "https://forum.dfinity.org/t/icycast-com-icrc37-nft-marketplace/64748",
+      "publishedAt": "Thu, 26 Feb 2026 03:41:08 +0000",
+      "description": "Hey all, most of you know me by my X profile @Chimera_Soft and @Corporate_Cats. We decided to build our new NFT’s using the ICRC37 standard after doing a lot of research and analysis of the older NFT’s in the ecosystem. After a lot of work, we released the JBBJ Ducks collection (an ICRC-37 NFT colle",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 28,
+      "title": "Full-stack SQLite powered website and search engine in one canister",
+      "url": "https://forum.dfinity.org/t/full-stack-sqlite-powered-website-and-search-engine-in-one-canister/64723",
+      "publishedAt": "Wed, 25 Feb 2026 21:27:50 +0000",
+      "description": "I wanted to make the January Promptathon showcase website fully open source, hosted in a single canister. Here it is \n\n  \n\n      github.com\n  \n\n  \n    \n  \n\n  GitHub - kristoferlund/promptathon-showcase: This is the January promptahon showcase! The...\n\n    This is the January promptahon showcase! The",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 29,
+      "title": "Has there been any discussion around native .onion / Tor endpoints for boundary nodes?",
+      "url": "https://forum.dfinity.org/t/has-there-been-any-discussion-around-native-onion-tor-endpoints-for-boundary-nodes/64710",
+      "publishedAt": "Wed, 25 Feb 2026 19:54:57 +0000",
+      "description": "One of ICP’s core value propositions is eliminating reliance on centralized trust — yet accessing canisters through icp0.io or ic0.app still depends on DNS, ICANN, and CA-signed certificates. This feels like a meaningful gap in the decentralization story at the last mile.\nTor’s .onion addresses are ",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 30,
+      "title": "Chain-key Signing Performance Improvements",
+      "url": "https://forum.dfinity.org/t/chain-key-signing-performance-improvements/64672",
+      "publishedAt": "Wed, 25 Feb 2026 10:57:13 +0000",
+      "description": "TL;DR: DFINITY is happy to announce significant throughput improvements for threshold signing, and would like to hear more about your use-cases.\nBackground\nThe Internet Computer Protocol currently implements a threshold signing service with four different schemes:\n\ntECDSA (Secp256k1)\ntSchnorr (BIP34",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 31,
+      "title": "My domain DNS has been propagated for 4+ days You&#39;re getting an &quot;invalid certificate&quot; error The certificate issuer shows as &quot;FGT81ETK20000416&quot; (which looks incorrect)",
+      "url": "https://forum.dfinity.org/t/my-domain-dns-has-been-propagated-for-4-days-youre-getting-an-invalid-certificate-error-the-certificate-issuer-shows-as-fgt81etk20000416-which-looks-incorrect/64654",
+      "publishedAt": "Tue, 24 Feb 2026 23:05:48 +0000",
+      "description": "\n            1 post - 1 participant\n            Read full topic\n          ]]>",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 32,
+      "title": "PP Terminal: AI-Built Multi-DEX Token Screener — Live on ICP (Feedback Welcome)",
+      "url": "https://forum.dfinity.org/t/pp-terminal-ai-built-multi-dex-token-screener-live-on-icp-feedback-welcome/64598",
+      "publishedAt": "Tue, 24 Feb 2026 15:33:36 +0000",
+      "description": "What We Built\nPP Terminal is a multi-DEX token screener deployed 100% on-chain to an ICP asset canister. It aggregates real-time data from KongSwap, ICPSwap, and Sonic into a single interface.\nLive now: https://bgxh4-siaaa-aaaal-qvhpq-cai.icp0.io\n\nWhy This Matters\nIf you are buying ICP tokens and on",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 33,
+      "title": "I have an application and idea that can go viral on the ICP chain, I need your financial and spiritual support, if it succeeds, we will be better together",
+      "url": "https://forum.dfinity.org/t/i-have-an-application-and-idea-that-can-go-viral-on-the-icp-chain-i-need-your-financial-and-spiritual-support-if-it-succeeds-we-will-be-better-together/64596",
+      "publishedAt": "Tue, 24 Feb 2026 15:33:28 +0000",
+      "description": "My current idea is to use caffeine AI to create a program supported by a trust mechanism, which will consist of three parts: task publishers, the program, and warriors. The whole theme is set around persistence.\nThe general way it operates is that task publishers release tasks about persistence—for ",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 34,
+      "title": "We&#39;re Hiring a Talented Developer for Our ICP Blockchain Startup",
+      "url": "https://forum.dfinity.org/t/were-hiring-a-talented-developer-for-our-icp-blockchain-startup/64594",
+      "publishedAt": "Tue, 24 Feb 2026 15:00:47 +0000",
+      "description": "About Us: We are developing an innovative project based on the Internet Computer Protocol (ICP) blockchain. Our mission is to create a platform that will become a flagship project within the ICP ecosystem.\nWhat We’re Looking For:\n\n\nAn experienced blockchain developer with deep understanding of ICP t",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 35,
+      "title": "Admin panel Not working Caffeine.ai",
+      "url": "https://forum.dfinity.org/t/admin-panel-not-working-caffeine-ai/64585",
+      "publishedAt": "Tue, 24 Feb 2026 10:41:59 +0000",
+      "description": "I created a website using caffeine.ai. Sometimes the admin panel comes up, but the sentences don’t come up. I don’t know what the problem is. I’m not a computer science student. I’m a commerce student. Can someone tell me how to use this?\n            4 posts - 3 participants\n            Read full to",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 36,
+      "title": "Consensus Protocol is live: x402 Proxy and WebSocket service",
+      "url": "https://forum.dfinity.org/t/consensus-protocol-is-live-x402-proxy-and-websocket-service/64526",
+      "publishedAt": "Sun, 22 Feb 2026 21:37:14 +0000",
+      "description": "Hello Everyone,\nI am proud to announce Consensus servers are live for testing. Consensus is a decentralized x402 Proxy and WebSocket service. It is hosted sovereignly and made available to the internet via manual port forwarding.\nYou can interact with the server right now by using the following comm",
+      "source": "forum.dfinity.org",
+      "ecosystem": "icp",
+      "tags": [
+        "community"
+      ],
+      "fetchedAt": 1772751964598
+    },
+    {
+      "id": 37,
+      "title": "Why ICP Is Essential",
+      "url": "https://medium.com/dfinity/why-icp-is-essential-5e9ffe870da1",
+      "publishedAt": "Fri, 22 Aug 2025 12:54:50 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 38,
+      "title": "Bringing LLMs to the Internet Computer",
+      "url": "https://medium.com/dfinity/bringing-llms-to-the-internet-computer-1f6df29da2c5",
+      "publishedAt": "Wed, 20 Aug 2025 09:01:59 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 39,
+      "title": "Internet Identity 2.0: The New User Experience",
+      "url": "https://medium.com/dfinity/internet-identity-2-0-the-new-user-experience-cf04243e8c32",
+      "publishedAt": "Mon, 18 Aug 2025 14:37:14 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 40,
+      "title": "The Bitcoin DeFi Renaissance",
+      "url": "https://medium.com/dfinity/the-bitcoin-defi-renaissance-6e73b1c29310",
+      "publishedAt": "Fri, 15 Aug 2025 14:12:09 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 41,
+      "title": "Who Controls Your Digital Life?",
+      "url": "https://medium.com/dfinity/who-controls-your-digital-life-26647a95ed2f",
+      "publishedAt": "Fri, 08 Aug 2025 12:44:32 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 42,
+      "title": "From Decentralization to AI: World Computer Tech Talks Recap",
+      "url": "https://medium.com/dfinity/from-decentralization-to-ai-world-computer-tech-talks-recap-26ff4afe03d6",
+      "publishedAt": "Thu, 07 Aug 2025 13:14:41 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 43,
+      "title": "How Juno Aims to Put Developers Back in Control",
+      "url": "https://medium.com/dfinity/how-juno-aims-to-put-developers-back-in-control-e1ffc208c680",
+      "publishedAt": "Mon, 28 Jul 2025 08:02:42 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 44,
+      "title": "Real-time Transparency with Public API Boundary Node Access Logs",
+      "url": "https://medium.com/dfinity/real-time-transparency-with-public-api-boundary-node-access-logs-5ecf0a5017fe",
+      "publishedAt": "Thu, 24 Jul 2025 09:02:42 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 45,
+      "title": "Hello, Self-Writing Internet: Creations and Conversations",
+      "url": "https://medium.com/dfinity/hello-self-writing-internet-creations-and-conversations-3027cefb28be",
+      "publishedAt": "Fri, 18 Jul 2025 22:15:12 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    },
+    {
+      "id": 46,
+      "title": "The Internet Computer’s Privacy Era: vetKeys Unlocked",
+      "url": "https://medium.com/dfinity/the-internet-computers-privacy-era-vetkeys-unlocked-4ded7c206c38",
+      "publishedAt": "Mon, 07 Jul 2025 08:02:54 GMT",
+      "description": "",
+      "source": "medium.com/dfinity",
+      "ecosystem": "icp",
+      "tags": [
+        "blog"
+      ],
+      "fetchedAt": 1772751964058
+    }
+  ],
+  "scamAlerts": [
+    {
+      "id": 1,
+      "title": "ICP Scam Alert: Transaction Address Spoofing",
+      "url": "https://forum.dfinity.org/t/icp-scam-alert-fraudsters-exploit-similar-transaction-addresses-mimicking-prefixes-and-suffixes-to-deceive-users/40298",
+      "description": "Fraudsters create addresses mimicking legitimate prefixes/suffixes to deceive users.",
+      "severity": "high",
+      "source": "forum.dfinity.org",
+      "publishedAt": "2024"
+    },
+    {
+      "id": 2,
+      "title": "Security Advisory: SIW E/B/S Prone to Phishing",
+      "url": "https://forum.dfinity.org/t/security-advisory-sign-in-with-ethereum-bitcoin-solana-siw-e-b-s-prone-to-phishing/64050",
+      "description": "Sign-In with Ethereum/Bitcoin/Solana implementations prone to phishing.",
+      "severity": "high",
+      "source": "forum.dfinity.org",
+      "publishedAt": "2025"
+    },
+    {
+      "id": 3,
+      "title": "Candid Security Advisory - Upgrade Required",
+      "url": "https://internetcomputer.org/blog/news-and-updates/candid-security-advisory",
+      "description": "Candid library vulnerability; upgrade to 0.9.10+ required.",
+      "severity": "medium",
+      "source": "internetcomputer.org",
+      "publishedAt": "2024"
+    }
+  ],
+  "stats": {
+    "newsCount": 46,
+    "scamCount": 3
+  }
+}
