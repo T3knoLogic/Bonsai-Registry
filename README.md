@@ -60,6 +60,10 @@ This aggregates data from:
 
 Output: `bonsai-registry-extended.json` with projects, news, and nftCollections for import into your application.
 
+## Monetization
+
+The registry supports paid placements (Featured, Verified, Sponsored sections). Edit `data/bonsai-registry-monetization.json` to add or remove projects. Caffeine.ai can update this file via Git. See [docs/MONETIZATION.md](docs/MONETIZATION.md) for structure and pricing.
+
 ## Getting Started
 
 *Coming soon - development setup instructions will be added as the project develops.*

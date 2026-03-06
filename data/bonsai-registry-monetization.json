@@ -1,0 +1,23 @@
+{
+  "_schema": "1.0",
+  "_description": "Bonsai Registry monetization: Featured ($200-500/mo), Verified ($50-100), Sponsored sections ($300-1K/mo). Add URL to array to enable. Caffeine.ai can update this file.",
+  "featured": [
+    {
+      "url": "https://t3kno-logic.xyz/",
+      "name": "T3kNo-Logic Bazaar",
+      "description": "Enchanted Bonsai Bazaar — merch, RWA airdrops, Bonsai Collective"
+    }
+  ],
+  "verified": [
+    "https://t3kno-logic.xyz/",
+    "https://bonsai-radio-247-7lk.caffeine.xyz/",
+    "https://thenftmatrix.gumroad.com/"
+  ],
+  "sponsoredSections": {
+    "DeFi Spotlight": [],
+    "RWA Leaders": [
+      "https://t3kno-logic.xyz/"
+    ],
+    "Creator Tools": []
+  }
+}

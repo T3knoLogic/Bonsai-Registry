@@ -13,6 +13,10 @@ module.exports = {
     categories: [],
     tier: 2,
     logoUrl: '',
+    // Monetization (managed in data/bonsai-registry-monetization.json)
+    featured: false,
+    verified: false,
+    sponsoredSection: '',
     createdAt: 0,
     // Extended
     canisterId: '',
