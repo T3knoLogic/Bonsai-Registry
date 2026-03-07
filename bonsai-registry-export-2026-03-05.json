@@ -700,6 +700,186 @@
     "logoUrl": ""
   },
   {
+    "name": "WallaWallet",
+    "description": "Hedera mobile wallet with staking, NFT support, Ledger",
+    "url": "https://wallawallet.com/",
+    "ecosystem": "hedera",
+    "categories": ["wallet"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Hashport",
+    "description": "Decentralized bridge for Hedera, Ethereum, Polygon, BSC",
+    "url": "https://www.hashport.network/",
+    "ecosystem": "hedera",
+    "categories": ["tools", "exchange"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "HashGuild",
+    "description": "Hedera NFT marketplace, launchpad, staking",
+    "url": "https://hashguild.xyz/",
+    "ecosystem": "hedera",
+    "categories": ["nft"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "RedSwan CRE",
+    "description": "Commercial real estate RWA tokenization on Hedera",
+    "url": "https://redswan.io/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Hedera Asset Tokenization Studio",
+    "description": "RWA tokenization toolkit, ERC-1400/3643, SEC compliant",
+    "url": "https://hedera.com/asset-tokenization-studio",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "HeadStarter",
+    "description": "Hedera crowdfunding launchpad, IDO/INO",
+    "url": "https://app.headstarter.org/",
+    "ecosystem": "hedera",
+    "categories": ["defi", "nft"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "HLiquity",
+    "description": "Hedera borrowing protocol",
+    "url": "https://hliquity.com/",
+    "ecosystem": "hedera",
+    "categories": ["defi"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Hedera AI Studio",
+    "description": "AI application development on Hedera",
+    "url": "https://hedera.com/blog/introducing-hedera-ai-studio",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Hedera Agent Marketplace",
+    "description": "Privacy-preserving AI agents on Hedera HCS standards",
+    "url": "https://hedera.opspawn.com/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "TrackTrace",
+    "description": "Product transparency, carbon tracking, EU Digital Product Passport",
+    "url": "https://tracktrace.io/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "atma.io",
+    "description": "Avery Dennison carbon accounting for billions of items on Hedera",
+    "url": "https://atma.io/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "DOVU",
+    "description": "Climate finance, tokenized carbon credits on Hedera",
+    "url": "https://dovu.earth/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Verra",
+    "description": "Carbon standards body, Hedera Guardian integration",
+    "url": "https://verra.org/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Hedera Guardian",
+    "description": "Sustainability and ESG tokenization platform",
+    "url": "https://hedera.com/guardian",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "AUDD",
+    "description": "Australian dollar stablecoin on Hedera",
+    "url": "https://audd.io/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Hedera Stablecoin Studio",
+    "description": "Compliant stablecoin issuance toolkit",
+    "url": "https://hedera.com/stablecoin-studio",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "ioBuilders",
+    "description": "Asset Tokenization Studio development partner",
+    "url": "https://iobuilders.io/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Archax",
+    "description": "FCA-regulated digital securities on Hedera",
+    "url": "https://archax.com/",
+    "ecosystem": "hedera",
+    "categories": ["tools", "exchange"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "EarthID",
+    "description": "Decentralized identity on Hedera",
+    "url": "https://earth.id/",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Hedera Web3 Applications",
+    "description": "Official Hedera dApp directory",
+    "url": "https://hedera.com/ecosystem",
+    "ecosystem": "hedera",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
     "name": "Star Atlas",
     "description": "Epic space MMO metaverse on Solana",
     "url": "https://staratlas.com/",
