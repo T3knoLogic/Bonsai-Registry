@@ -1632,6 +1632,141 @@
     "logoUrl": ""
   },
   {
+    "name": "Helium Network",
+    "description": "Decentralized wireless network for IoT and 5G",
+    "url": "https://www.helium.com/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Helium Foundation",
+    "description": "Protocol governance and ecosystem grants",
+    "url": "https://www.helium.foundation/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Nova Labs",
+    "description": "Helium Mobile operator and core technology",
+    "url": "https://nova.xyz/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Helium IoT Network",
+    "description": "LoRaWAN connectivity for IoT devices",
+    "url": "https://docs.helium.com/iot",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Helium Console",
+    "description": "Device management and Data Credits",
+    "url": "https://console.helium.com/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Helium 5G",
+    "description": "5G/CBRS network, MOBILE token rewards",
+    "url": "https://www.helium.com/5G",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Helium Mobile",
+    "description": "MVNO powered by decentralized Helium Network",
+    "url": "https://hellohelium.com/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Helium World Explorer",
+    "description": "Network and hotspot explorer",
+    "url": "https://explorer.helium.com/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Helium Wallet",
+    "description": "HNT, MOBILE, Data Credits - non-custodial",
+    "url": "https://heliumwallet.org/",
+    "ecosystem": "helium",
+    "categories": ["wallet"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Particle",
+    "description": "M-Series hardware with Helium LoRaWAN",
+    "url": "https://www.particle.io/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "SkyNet IoT",
+    "description": "LoRaWAN roaming, maritime IoT",
+    "url": "https://skynetiot.com/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Parley Labs",
+    "description": "5G gateways, LoRaWAN hotspots",
+    "url": "https://parleylabs.com/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "FreedomFi",
+    "description": "5G CBRS small cells for Helium",
+    "url": "https://www.freedomfi.com/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Cal Chip Connect",
+    "description": "Helium hotspot distributor",
+    "url": "https://www.calchipconnect.com/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Nebra",
+    "description": "Helium IoT indoor and outdoor hotspots",
+    "url": "https://nebra.io/",
+    "ecosystem": "helium",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
     "name": "Crabada",
     "description": "Idle crab battle game on Avalanche",
     "url": "https://www.crabada.com/",

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-05",
+    "description": "Helium Network ecosystem: IoT LoRaWAN, 5G/Mobile, hotspots, wallets, roaming, hardware"
+  },
+  "categories": {
+    "core": [
+      { "name": "Helium", "url": "https://www.helium.com/", "description": "Decentralized wireless network" },
+      { "name": "Helium Foundation", "url": "https://www.helium.foundation/", "description": "Protocol governance and grants" },
+      { "name": "Nova Labs", "url": "https://nova.xyz/", "description": "Helium Mobile, core technology" },
+      { "name": "Helium Documentation", "url": "https://docs.helium.com/", "description": "Developer docs and API" }
+    ],
+    "iot": [
+      { "name": "Helium IoT Network", "url": "https://docs.helium.com/iot", "description": "LoRaWAN connectivity for IoT" },
+      { "name": "Helium Console", "url": "https://console.helium.com/", "description": "Device management and Data Credits" },
+      { "name": "LoRaWAN Roaming", "url": "https://docs.helium.com/iot/lorawan-roaming", "description": "IoT roaming integration" }
+    ],
+    "mobile": [
+      { "name": "Helium 5G", "url": "https://www.helium.com/5G", "description": "5G/CBRS network, MOBILE token" },
+      { "name": "Helium Mobile", "url": "https://www.hellohelium.com/", "description": "MVNO powered by Helium Network" },
+      { "name": "MOBILE Proof of Coverage", "url": "https://docs.helium.com/mobile/proof-of-coverage", "description": "5G hotspot rewards" }
+    ],
+    "explorers": [
+      { "name": "Helium World", "url": "https://explorer.helium.com/", "description": "Network and hotspot explorer" },
+      { "name": "Helium Planner", "url": "https://explorer.hellohelium.com/planner", "description": "Coverage planning tool" }
+    ],
+    "wallets": [
+      { "name": "Helium Wallet", "url": "https://heliumwallet.org/", "description": "HNT, MOBILE, Data Credits" },
+      { "name": "Helium Hotspot App", "url": "https://docs.helium.com/mine-hnt/helium-hotspot-app", "description": "Hotspot management, iOS/Android" }
+    ],
+    "hardware": [
+      { "name": "Parley Labs", "url": "https://parleylabs.com/", "description": "5G gateways, LoRaWAN hotspots" },
+      { "name": "FreedomFi", "url": "https://www.freedomfi.com/", "description": "5G CBRS small cells" },
+      { "name": "Cal Chip", "url": "https://www.calchipconnect.com/", "description": "Helium hotspot distributor" },
+      { "name": "Bobcat", "url": "https://www.bobcatminer.com/", "description": "Helium hotspot manufacturer" }
+    ],
+    "roaming": [
+      { "name": "SkyNet IoT", "url": "https://skynetiot.com/", "description": "LoRaWAN roaming, maritime IoT" },
+      { "name": "Particle", "url": "https://www.particle.io/", "description": "M-Series with Helium LoRaWAN" },
+      { "name": "Telefónica", "url": "https://www.telefonica.com/", "description": "Helium Mobile hotspots in Mexico" },
+      { "name": "Dish Network", "url": "https://www.dish.com/", "description": "First major carrier on Helium 5G" }
+    ]
+  }
+}
