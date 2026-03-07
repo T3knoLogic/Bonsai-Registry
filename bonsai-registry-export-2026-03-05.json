@@ -278,6 +278,272 @@
     "logoUrl": ""
   },
   {
+    "name": "Etherscan",
+    "description": "Ethereum block explorer and API",
+    "url": "https://etherscan.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Alchemy",
+    "description": "Blockchain dev platform and RPC",
+    "url": "https://www.alchemy.com/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Infura",
+    "description": "Ethereum node and API provider",
+    "url": "https://www.infura.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "The Graph",
+    "description": "Decentralized indexing protocol",
+    "url": "https://thegraph.com/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Arbitrum",
+    "description": "Leading Optimistic rollup L2",
+    "url": "https://arbitrum.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Optimism",
+    "description": "OP Mainnet Optimistic rollup",
+    "url": "https://optimism.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Base",
+    "description": "Coinbase L2 for consumer adoption",
+    "url": "https://base.org/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "zkSync Era",
+    "description": "ZK rollup by Matter Labs",
+    "url": "https://zksync.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Starknet",
+    "description": "STARK-based ZK rollup",
+    "url": "https://www.starknet.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Linea",
+    "description": "ConsenSys zkEVM L2",
+    "url": "https://linea.build/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Scroll",
+    "description": "Native zkEVM rollup",
+    "url": "https://scroll.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Blast",
+    "description": "Yield-bearing L2 by Blur team",
+    "url": "https://blast.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "1inch",
+    "description": "DEX aggregator for best rates",
+    "url": "https://app.1inch.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "defi",
+      "exchange"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "dYdX",
+    "description": "Decentralized perpetuals exchange",
+    "url": "https://dydx.exchange/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "defi",
+      "exchange"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "ether.fi",
+    "description": "Liquid staking and restaking",
+    "url": "https://www.ether.fi/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "defi"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Stargate",
+    "description": "LayerZero cross-chain bridge",
+    "url": "https://stargate.finance/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Across",
+    "description": "Fast L2 bridge",
+    "url": "https://across.to/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "LayerZero",
+    "description": "Omnichain messaging protocol",
+    "url": "https://layerzero.network/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "tools"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Ondo Finance",
+    "description": "Tokenized treasuries and RWA",
+    "url": "https://ondo.finance/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "defi"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Centrifuge",
+    "description": "RWA tokenization platform",
+    "url": "https://centrifuge.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "defi"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "LooksRare",
+    "description": "Community-first NFT marketplace",
+    "url": "https://looksrare.org/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "nft"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Rainbow Wallet",
+    "description": "User-friendly Ethereum wallet",
+    "url": "https://rainbow.me/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "wallet"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Rabby Wallet",
+    "description": "Multi-chain wallet by DeBank",
+    "url": "https://rabby.io/",
+    "ecosystem": "ethereum",
+    "categories": [
+      "wallet"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Coinbase Wallet",
+    "description": "Self-custody wallet by Coinbase",
+    "url": "https://www.coinbase.com/wallet",
+    "ecosystem": "ethereum",
+    "categories": [
+      "wallet"
+    ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
     "name": "MetaMask",
     "description": "Industry-standard browser wallet",
     "url": "https://metamask.io/",

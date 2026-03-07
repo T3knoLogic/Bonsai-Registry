@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-05",
+    "description": "Comprehensive Ethereum L1 + L2 ecosystem reference"
+  },
+  "core": [
+    { "name": "Ethereum", "url": "https://ethereum.org/", "description": "Smart contract L1" },
+    { "name": "Ethereum Foundation", "url": "https://ethereum.foundation/", "description": "Ecosystem support" },
+    { "name": "EIP-1559", "url": "https://eips.ethereum.org/EIPS/eip-1559", "description": "Fee market" }
+  ],
+  "layer2": {
+    "optimistic": [
+      { "name": "Arbitrum", "url": "https://arbitrum.io/", "tvl": "~$17B" },
+      { "name": "Optimism", "url": "https://optimism.io/", "tvl": "~$8B" },
+      { "name": "Base", "url": "https://base.org/", "tvl": "~$12B" },
+      { "name": "Blast", "url": "https://blast.io/", "tvl": "~$330M" },
+      { "name": "Mode", "url": "https://mode.network/", "tvl": "~$139M" },
+      { "name": "Metis", "url": "https://metis.io/", "description": "Hybrid rollup" }
+    ],
+    "zk": [
+      { "name": "zkSync Era", "url": "https://zksync.io/", "tvl": "~$1.2B" },
+      { "name": "Starknet", "url": "https://starknet.io/", "tvl": "~$550M" },
+      { "name": "Linea", "url": "https://linea.build/", "tvl": "~$1.77B" },
+      { "name": "Scroll", "url": "https://scroll.io/", "tvl": "~$271M" },
+      { "name": "Polygon zkEVM", "url": "https://polygon.technology/polygon-zkevm", "description": "ZK rollup" },
+      { "name": "Taiko", "url": "https://taiko.xyz/", "tvl": "~$45M" }
+    ],
+    "other": [
+      { "name": "Immutable X", "url": "https://www.immutable.com/", "description": "NFT L2" }
+    ]
+  },
+  "defi": [
+    { "name": "Uniswap", "url": "https://uniswap.org/", "category": "DEX" },
+    { "name": "Aave", "url": "https://aave.com/", "category": "Lending" },
+    { "name": "Lido", "url": "https://lido.fi/", "category": "Liquid staking" },
+    { "name": "Curve", "url": "https://curve.fi/", "category": "Stablecoin DEX" },
+    { "name": "MakerDAO", "url": "https://makerdao.com/", "category": "Stablecoin" },
+    { "name": "Compound", "url": "https://compound.finance/", "category": "Lending" },
+    { "name": "1inch", "url": "https://1inch.io/", "category": "DEX aggregator" },
+    { "name": "dYdX", "url": "https://dydx.exchange/", "category": "Perps" },
+    { "name": "GMX", "url": "https://gmx.io/", "category": "Perps" },
+    { "name": "Pendle", "url": "https://pendle.finance/", "category": "Yield" },
+    { "name": "EigenLayer", "url": "https://eigenlayer.xyz/", "category": "Restaking" },
+    { "name": "ether.fi", "url": "https://ether.fi/", "category": "Liquid restaking" }
+  ],
+  "nft": [
+    { "name": "OpenSea", "url": "https://opensea.io/" },
+    { "name": "Blur", "url": "https://blur.io/" },
+    { "name": "Rarible", "url": "https://rarible.com/" },
+    { "name": "Foundation", "url": "https://foundation.app/" },
+    { "name": "SuperRare", "url": "https://superrare.com/" },
+    { "name": "LooksRare", "url": "https://looksrare.org/" },
+    { "name": "Zora", "url": "https://zora.co/" },
+    { "name": "Manifold", "url": "https://manifold.xyz/" }
+  ],
+  "wallets": [
+    { "name": "MetaMask", "url": "https://metamask.io/" },
+    { "name": "Rainbow", "url": "https://rainbow.me/" },
+    { "name": "Rabby", "url": "https://rabby.io/" },
+    { "name": "Coinbase Wallet", "url": "https://www.coinbase.com/wallet" },
+    { "name": "Ledger", "url": "https://www.ledger.com/" },
+    { "name": "Trezor", "url": "https://trezor.io/" }
+  ],
+  "bridges": [
+    { "name": "Stargate", "url": "https://stargate.finance/", "protocol": "LayerZero" },
+    { "name": "Across", "url": "https://across.to/" },
+    { "name": "LayerZero", "url": "https://layerzero.network/" },
+    { "name": "Bridge", "url": "https://bridge.base.org/" }
+  ],
+  "rwa": [
+    { "name": "Ondo Finance", "url": "https://ondo.finance/" },
+    { "name": "Centrifuge", "url": "https://centrifuge.io/" },
+    { "name": "Backed", "url": "https://backed.fi/" },
+    { "name": "Maple", "url": "https://www.maple.finance/" }
+  ],
+  "infrastructure": [
+    { "name": "Etherscan", "url": "https://etherscan.io/" },
+    { "name": "Alchemy", "url": "https://alchemy.com/" },
+    { "name": "Infura", "url": "https://infura.io/" },
+    { "name": "The Graph", "url": "https://thegraph.com/" },
+    { "name": "QuickNode", "url": "https://quicknode.com/" }
+  ]
+}
