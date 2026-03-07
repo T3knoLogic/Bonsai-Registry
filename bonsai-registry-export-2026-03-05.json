@@ -3079,6 +3079,42 @@
     "logoUrl": ""
   },
   {
+    "name": "Seamless Protocol",
+    "description": "Native lending and Leverage Tokens on Base",
+    "url": "https://www.seamlessprotocol.com/",
+    "ecosystem": "base",
+    "categories": ["defi"],
+    "tier": 2,
+    "logoUrl": ""
+  },
+  {
+    "name": "Moonwell",
+    "description": "Lending and borrowing on Base",
+    "url": "https://moonwell.fi/",
+    "ecosystem": "base",
+    "categories": ["defi"],
+    "tier": 2,
+    "logoUrl": ""
+  },
+  {
+    "name": "Basescan",
+    "description": "Base blockchain explorer",
+    "url": "https://basescan.org/",
+    "ecosystem": "base",
+    "categories": ["tools"],
+    "tier": 2,
+    "logoUrl": ""
+  },
+  {
+    "name": "Zora",
+    "description": "NFT creation platform, Base-native",
+    "url": "https://zora.co/",
+    "ecosystem": "base",
+    "categories": ["nft"],
+    "tier": 2,
+    "logoUrl": ""
+  },
+  {
     "name": "Optimism",
     "description": "Ethereum L2 Optimistic Rollup",
     "url": "https://www.optimism.io/",
@@ -3121,6 +3157,24 @@
       "defi",
       "exchange"
     ],
+    "tier": 2,
+    "logoUrl": ""
+  },
+  {
+    "name": "Kwenta",
+    "description": "Perps trading on Synthetix (Optimism)",
+    "url": "https://kwenta.io/",
+    "ecosystem": "optimism",
+    "categories": ["defi", "exchange"],
+    "tier": 2,
+    "logoUrl": ""
+  },
+  {
+    "name": "Quix",
+    "description": "NFT marketplace on Optimism",
+    "url": "https://quix.co/",
+    "ecosystem": "optimism",
+    "categories": ["nft"],
     "tier": 2,
     "logoUrl": ""
   },

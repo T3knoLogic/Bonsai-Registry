@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-05",
+    "description": "Base L2 ecosystem: DeFi, NFTs, SocialFi, infrastructure (Coinbase OP Stack)"
+  },
+  "categories": {
+    "core": [
+      { "name": "Base", "url": "https://base.org/", "description": "Coinbase L2, OP Stack" },
+      { "name": "Base Bridge", "url": "https://bridge.base.org/", "description": "Ethereum ↔ Base" },
+      { "name": "Base Docs", "url": "https://docs.base.org/", "description": "Developer documentation" }
+    ],
+    "explorers": [
+      { "name": "Basescan", "url": "https://basescan.org/", "description": "Base blockchain explorer" }
+    ],
+    "defi": [
+      { "name": "Aerodrome", "url": "https://aerodrome.finance/", "description": "Leading DEX, ve(3,3), Slipstream" },
+      { "name": "Uniswap", "url": "https://app.uniswap.org/", "description": "AMM on Base" },
+      { "name": "BaseSwap", "url": "https://baseswap.fi/", "description": "Uniswap fork DEX" },
+      { "name": "Seamless Protocol", "url": "https://seamlessprotocol.com/", "description": "Native lending, Leverage Tokens" },
+      { "name": "Moonwell", "url": "https://moonwell.fi/", "description": "Lending and borrowing" },
+      { "name": "Compound", "url": "https://compound.finance/", "description": "Lending on Base" },
+      { "name": "Aave", "url": "https://aave.com/", "description": "Lending on Base" }
+    ],
+    "social": [
+      { "name": "Friend.tech", "url": "https://friend.tech/", "description": "Social token keys, SocialFi" },
+      { "name": "Farcaster", "url": "https://farcaster.xyz/", "description": "Decentralized social protocol" }
+    ],
+    "nft": [
+      { "name": "Zora", "url": "https://zora.co/", "description": "NFT creation, Base-native" },
+      { "name": "OpenSea", "url": "https://opensea.io/", "description": "NFT marketplace on Base" },
+      { "name": "Mintify", "url": "https://mintify.xyz/", "description": "NFT marketplace on Base" }
+    ],
+    "bridges": [
+      { "name": "Base Bridge", "url": "https://bridge.base.org/", "description": "Official Ethereum bridge" },
+      { "name": "Stargate", "url": "https://stargate.finance/", "description": "LayerZero cross-chain" }
+    ]
+  }
+}

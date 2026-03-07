@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-05",
+    "description": "Optimism ecosystem: Superchain, OP Stack, DeFi, perps, infrastructure"
+  },
+  "categories": {
+    "core": [
+      { "name": "Optimism", "url": "https://optimism.io/", "description": "OP Mainnet, Superchain" },
+      { "name": "OP Stack", "url": "https://stack.optimism.io/", "description": "Rollup framework" },
+      { "name": "Optimism Bridge", "url": "https://app.optimism.io/bridge", "description": "Ethereum ↔ OP" },
+      { "name": "Optimism Docs", "url": "https://docs.optimism.io/", "description": "Developer documentation" }
+    ],
+    "explorers": [
+      { "name": "Optimistic Etherscan", "url": "https://optimistic.etherscan.io/", "description": "OP Mainnet explorer" }
+    ],
+    "defi": [
+      { "name": "Velodrome", "url": "https://velodrome.finance/", "description": "Leading DEX, ve(3,3)" },
+      { "name": "Uniswap", "url": "https://app.uniswap.org/", "description": "AMM on Optimism" },
+      { "name": "Synthetix", "url": "https://synthetix.io/", "description": "Synthetic assets, perps infra" },
+      { "name": "Kwenta", "url": "https://kwenta.io/", "description": "Perps trading (Synthetix)" },
+      { "name": "Perpetual Protocol", "url": "https://perp.com/", "description": "Perpetuals DEX" },
+      { "name": "Aave", "url": "https://aave.com/", "description": "Lending on Optimism" },
+      { "name": "Beefy Finance", "url": "https://beefy.finance/", "description": "Yield aggregator" }
+    ],
+    "superchain": [
+      { "name": "Mode", "url": "https://mode.network/", "description": "OP Stack L2" },
+      { "name": "Zora Network", "url": "https://zora.co/", "description": "NFT L2 on OP Stack" },
+      { "name": "World Chain", "url": "https://worldchain.org/", "description": "Worldcoin L2" }
+    ],
+    "grants": [
+      { "name": "Optimism Foundation", "url": "https://optimism.io/", "description": "Retro Funding, grants" }
+    ]
+  }
+}
