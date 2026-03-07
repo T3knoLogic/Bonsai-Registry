@@ -111,6 +111,132 @@
     "logoUrl": ""
   },
   {
+    "name": "Bitcoin.org",
+    "description": "Official Bitcoin resource and documentation",
+    "url": "https://bitcoin.org/",
+    "ecosystem": "bitcoin",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Blockstream Explorer",
+    "description": "Bitcoin and Liquid blockchain explorer",
+    "url": "https://blockstream.info/",
+    "ecosystem": "bitcoin",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Liquid Network",
+    "description": "Bitcoin sidechain for fast confidential settlements",
+    "url": "https://liquid.network/",
+    "ecosystem": "bitcoin",
+    "categories": ["tools", "defi"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Runes Protocol",
+    "description": "UTXO-based fungible token standard on Bitcoin",
+    "url": "https://runes.io/",
+    "ecosystem": "bitcoin",
+    "categories": ["nft", "tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Hiro (Stacks)",
+    "description": "Stacks developer platform and wallet",
+    "url": "https://www.hiro.so/",
+    "ecosystem": "bitcoin",
+    "categories": ["tools", "wallet"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Leather Wallet",
+    "description": "Stacks and Bitcoin wallet for sBTC",
+    "url": "https://leather.io/",
+    "ecosystem": "bitcoin",
+    "categories": ["wallet"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "BlueWallet",
+    "description": "Bitcoin and Lightning mobile wallet",
+    "url": "https://bluewallet.io/",
+    "ecosystem": "bitcoin",
+    "categories": ["wallet"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Muun",
+    "description": "Bitcoin and Lightning self-custodial wallet",
+    "url": "https://muun.com/",
+    "ecosystem": "bitcoin",
+    "categories": ["wallet"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Phoenix Wallet",
+    "description": "Non-custodial Lightning wallet",
+    "url": "https://phoenix.acinq.io/",
+    "ecosystem": "bitcoin",
+    "categories": ["wallet"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Zest Protocol",
+    "description": "Bitcoin lending on Stacks",
+    "url": "https://www.zestprotocol.com/",
+    "ecosystem": "bitcoin",
+    "categories": ["defi"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Bitflow Finance",
+    "description": "Bitcoin-native DEX on Stacks",
+    "url": "https://bitflow.finance/",
+    "ecosystem": "bitcoin",
+    "categories": ["defi", "exchange"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "sBTC Bridge",
+    "description": "Decentralized Bitcoin peg for Stacks",
+    "url": "https://docs.stacks.co/guides-and-tutorials/sbtc/how-to-use-the-sbtc-bridge",
+    "ecosystem": "bitcoin",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Blockstream",
+    "description": "Bitcoin infrastructure and Liquid Network",
+    "url": "https://blockstream.com/",
+    "ecosystem": "bitcoin",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Ordinals.com",
+    "description": "Ordinals protocol documentation",
+    "url": "https://ordinals.com/",
+    "ecosystem": "bitcoin",
+    "categories": ["nft", "tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
     "name": "Axie Infinity",
     "description": "P2E battle game with NFT creatures",
     "url": "https://www.axieinfinity.com/",
@@ -1376,6 +1502,132 @@
       "defi",
       "exchange"
     ],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Helius",
+    "description": "Solana RPC, APIs, LaserStream infrastructure",
+    "url": "https://helius.xyz/",
+    "ecosystem": "solana",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Triton",
+    "description": "High-performance Solana RPC and nodes",
+    "url": "https://triton.one/",
+    "ecosystem": "solana",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Solscan",
+    "description": "Multi-chain Solana blockchain explorer",
+    "url": "https://solscan.io/",
+    "ecosystem": "solana",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Pump.fun",
+    "description": "Memecoin launchpad with bonding curve",
+    "url": "https://pump.fun/",
+    "ecosystem": "solana",
+    "categories": ["defi", "exchange"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Kamino Finance",
+    "description": "Automated vaults and lending on Solana",
+    "url": "https://kamino.finance/",
+    "ecosystem": "solana",
+    "categories": ["defi"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Mango Markets",
+    "description": "Spot, perps, and lending on Solana",
+    "url": "https://mango.markets/",
+    "ecosystem": "solana",
+    "categories": ["defi", "exchange"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Meteora",
+    "description": "DLMM and dynamic AMM on Solana",
+    "url": "https://meteora.ag/",
+    "ecosystem": "solana",
+    "categories": ["defi", "exchange"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Parcl",
+    "description": "Real estate index trading on Solana",
+    "url": "https://parcl.co/",
+    "ecosystem": "solana",
+    "categories": ["defi"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Wormhole",
+    "description": "Cross-chain messaging and bridge",
+    "url": "https://wormhole.com/",
+    "ecosystem": "solana",
+    "categories": ["tools"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Exchange Art",
+    "description": "Curated digital art NFT marketplace",
+    "url": "https://exchange.art/",
+    "ecosystem": "solana",
+    "categories": ["nft"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "Genopets",
+    "description": "Move-to-earn fitness game on Solana",
+    "url": "https://genopets.me/",
+    "ecosystem": "solana",
+    "categories": ["gaming"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "CyberFrogs",
+    "description": "P2E battle game on Solana",
+    "url": "https://cyberfrogs.io/",
+    "ecosystem": "solana",
+    "categories": ["gaming"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "DeFira",
+    "description": "Space strategy game on Solana",
+    "url": "https://defira.io/",
+    "ecosystem": "solana",
+    "categories": ["gaming"],
+    "tier": 1,
+    "logoUrl": ""
+  },
+  {
+    "name": "SolChicks",
+    "description": "P2E RPG game on Solana",
+    "url": "https://solchicks.io/",
+    "ecosystem": "solana",
+    "categories": ["gaming"],
     "tier": 1,
     "logoUrl": ""
   },

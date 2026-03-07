@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-05",
+    "description": "Solana ecosystem: L1, DeFi, NFTs, gaming, RWA, infrastructure, wallets"
+  },
+  "categories": {
+    "core": [
+      { "name": "Solana", "url": "https://solana.com/", "description": "Official protocol site" },
+      { "name": "Solana Foundation", "url": "https://solana.org/", "description": "Ecosystem grants & support" },
+      { "name": "Solana Developer Hub", "url": "https://solana.com/developers", "description": "Docs & tooling" }
+    ],
+    "explorers": [
+      { "name": "Solana Explorer", "url": "https://explorer.solana.com/", "description": "Official blockchain explorer" },
+      { "name": "Solana Beach", "url": "https://solanabeach.io/", "description": "Validator & network stats" },
+      { "name": "Solscan", "url": "https://solscan.io/", "description": "Multi-chain Solana explorer" }
+    ],
+    "infrastructure": [
+      { "name": "Helius", "url": "https://helius.xyz/", "description": "RPC, APIs, LaserStream" },
+      { "name": "Triton", "url": "https://triton.one/", "description": "High-performance RPC & nodes" },
+      { "name": "Metaplex", "url": "https://metaplex.com/", "description": "NFT standard & tooling" }
+    ],
+    "defi": [
+      { "name": "Jupiter Aggregator", "url": "https://jup.ag/", "description": "Leading DEX aggregator" },
+      { "name": "Raydium", "url": "https://raydium.io/", "description": "AMM, CLMM, launchpad" },
+      { "name": "Orca", "url": "https://orca.so/", "description": "Whirlpools AMM" },
+      { "name": "Marinade Finance", "url": "https://marinade.finance/", "description": "Liquid staking (mSOL)" },
+      { "name": "Drift Protocol", "url": "https://drift.trade/", "description": "Perpetuals DEX" },
+      { "name": "Solend", "url": "https://solend.fi/", "description": "Lending & borrowing" },
+      { "name": "Kamino", "url": "https://kamino.finance/", "description": "Automated vaults & lending" },
+      { "name": "Mango Markets", "url": "https://mango.markets/", "description": "Spot, perps, lending" },
+      { "name": "Pump.fun", "url": "https://pump.fun/", "description": "Memecoin launchpad" },
+      { "name": "Meteora", "url": "https://meteora.ag/", "description": "DLMM & dynamic AMM" }
+    ],
+    "nft": [
+      { "name": "Magic Eden", "url": "https://magiceden.io/", "description": "Premier NFT marketplace" },
+      { "name": "Tensor", "url": "https://tensor.trade/", "description": "Pro NFT trading" },
+      { "name": "Exchange Art", "url": "https://exchange.art/", "description": "Curated digital art" },
+      { "name": "Solanart", "url": "https://solanart.io/", "description": "NFT marketplace" },
+      { "name": "Famous Fox Federation", "url": "https://famousfoxes.com/", "description": "Iconic NFT collection" }
+    ],
+    "gaming": [
+      { "name": "Star Atlas", "url": "https://staratlas.com/", "description": "Space strategy MMO" },
+      { "name": "Aurory", "url": "https://aurory.io/", "description": "RPG adventure" },
+      { "name": "Genopets", "url": "https://genopets.me/", "description": "Move-to-earn" },
+      { "name": "STEPN", "url": "https://stepn.com/", "description": "Move-to-earn fitness" },
+      { "name": "DeFi Land", "url": "https://defiland.app/", "description": "Farming sim" },
+      { "name": "CyberFrogs", "url": "https://cyberfrogs.io/", "description": "P2E battle" },
+      { "name": "DeFira", "url": "https://defira.io/", "description": "Space strategy" },
+      { "name": "SolChicks", "url": "https://solchicks.io/", "description": "P2E RPG" }
+    ],
+    "rwa": [
+      { "name": "Parcl", "url": "https://parcl.co/", "description": "Real estate index trading" }
+    ],
+    "wallets": [
+      { "name": "Phantom", "url": "https://phantom.app/", "description": "Multi-chain wallet" },
+      { "name": "Solflare", "url": "https://solflare.com/", "description": "Solana-native wallet" },
+      { "name": "Backpack", "url": "https://backpack.app/", "description": "xNFT wallet" }
+    ],
+    "bridges": [
+      { "name": "Wormhole", "url": "https://wormhole.com/", "description": "Cross-chain messaging" }
+    ]
+  }
+}
