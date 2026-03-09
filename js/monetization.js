@@ -58,9 +58,12 @@
     header.insertAdjacentElement('afterend', section);
 
     const grid = document.getElementById('bonsai-featured-grid');
+    const utm = 'utm_source=bonsai-registry&utm_medium=featured';
     featured.forEach(item => {
       const a = document.createElement('a');
-      a.href = item.url;
+      let url = (item.url || '').trim();
+      if (url) url += (url.includes('?') ? '&' : '?') + utm;
+      a.href = url || '#';
       a.target = '_blank';
       a.className = 'link-item block p-4 bg-web3-card rounded-lg transition duration-300 border-2 border-web3-primary/50 hover:border-web3-primary relative overflow-hidden';
       a.innerHTML = `

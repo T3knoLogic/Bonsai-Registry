@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-05",
+    "description": "Web3 creator tools: music, art, publishing, revenue splits, NFT platforms"
+  },
+  "categories": {
+    "generativeArt": [
+      { "name": "Art Blocks", "url": "https://artblocks.io/", "description": "Premier generative art platform" },
+      { "name": "Fxhash", "url": "https://fxhash.xyz/", "description": "Tezos generative art marketplace" },
+      { "name": "Plottables", "url": "https://plottables.io/", "description": "Interactive coding art" }
+    ],
+    "music": [
+      { "name": "Audius", "url": "https://audius.org/", "description": "Decentralized music streaming" },
+      { "name": "Opulous", "url": "https://opulous.org/", "description": "Music NFTs, royalty-backed DeFi loans" },
+      { "name": "Catalog", "url": "https://catalog.works/", "description": "Single-edition music NFTs" },
+      { "name": "Royal", "url": "https://royal.io/", "description": "Music royalty tokenization" },
+      { "name": "Meteora", "url": "https://meteora.audio/", "description": "AI + blockchain audio NFTs" }
+    ],
+    "nftCreation": [
+      { "name": "Zora", "url": "https://zora.co/", "description": "Permissionless NFT creation" },
+      { "name": "Manifold", "url": "https://manifold.xyz/", "description": "Creator-owned smart contracts" },
+      { "name": "Foundation", "url": "https://foundation.app/", "description": "Curated creator NFT marketplace" },
+      { "name": "SuperRare", "url": "https://superrare.com/", "description": "Curated digital art" },
+      { "name": "Rarible", "url": "https://rarible.com/", "description": "Creator-first NFT marketplace" }
+    ],
+    "publishing": [
+      { "name": "Mirror", "url": "https://mirror.xyz/", "description": "Web3 publishing, crowdfunding" }
+    ],
+    "revenueTools": [
+      { "name": "Dassu", "url": "https://dassu.io/", "description": "Revenue split automation for creators" },
+      { "name": "Koji", "url": "https://withkoji.com/", "description": "Creator monetization apps" }
+    ],
+    "platforms": [
+      { "name": "Medallion XLN", "url": "https://medallionxln.com/", "description": "StarkNet creator economy, 97% revenue" },
+      { "name": "CANI", "url": "https://canistore.io/", "description": "CaniStore, CaniPlay for musicians" }
+    ]
+  }
+}

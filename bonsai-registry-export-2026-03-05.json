@@ -115,7 +115,9 @@
     "description": "Official Bitcoin resource and documentation",
     "url": "https://bitcoin.org/",
     "ecosystem": "bitcoin",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -124,7 +126,9 @@
     "description": "Bitcoin and Liquid blockchain explorer",
     "url": "https://blockstream.info/",
     "ecosystem": "bitcoin",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -133,7 +137,10 @@
     "description": "Bitcoin sidechain for fast confidential settlements",
     "url": "https://liquid.network/",
     "ecosystem": "bitcoin",
-    "categories": ["tools", "defi"],
+    "categories": [
+      "tools",
+      "defi"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -142,7 +149,10 @@
     "description": "UTXO-based fungible token standard on Bitcoin",
     "url": "https://runes.io/",
     "ecosystem": "bitcoin",
-    "categories": ["nft", "tools"],
+    "categories": [
+      "nft",
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -151,7 +161,10 @@
     "description": "Stacks developer platform and wallet",
     "url": "https://www.hiro.so/",
     "ecosystem": "bitcoin",
-    "categories": ["tools", "wallet"],
+    "categories": [
+      "tools",
+      "wallet"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -160,7 +173,9 @@
     "description": "Stacks and Bitcoin wallet for sBTC",
     "url": "https://leather.io/",
     "ecosystem": "bitcoin",
-    "categories": ["wallet"],
+    "categories": [
+      "wallet"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -169,7 +184,9 @@
     "description": "Bitcoin and Lightning mobile wallet",
     "url": "https://bluewallet.io/",
     "ecosystem": "bitcoin",
-    "categories": ["wallet"],
+    "categories": [
+      "wallet"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -178,7 +195,9 @@
     "description": "Bitcoin and Lightning self-custodial wallet",
     "url": "https://muun.com/",
     "ecosystem": "bitcoin",
-    "categories": ["wallet"],
+    "categories": [
+      "wallet"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -187,7 +206,9 @@
     "description": "Non-custodial Lightning wallet",
     "url": "https://phoenix.acinq.io/",
     "ecosystem": "bitcoin",
-    "categories": ["wallet"],
+    "categories": [
+      "wallet"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -196,7 +217,9 @@
     "description": "Bitcoin lending on Stacks",
     "url": "https://www.zestprotocol.com/",
     "ecosystem": "bitcoin",
-    "categories": ["defi"],
+    "categories": [
+      "defi"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -205,7 +228,10 @@
     "description": "Bitcoin-native DEX on Stacks",
     "url": "https://bitflow.finance/",
     "ecosystem": "bitcoin",
-    "categories": ["defi", "exchange"],
+    "categories": [
+      "defi",
+      "exchange"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -214,7 +240,9 @@
     "description": "Decentralized Bitcoin peg for Stacks",
     "url": "https://docs.stacks.co/guides-and-tutorials/sbtc/how-to-use-the-sbtc-bridge",
     "ecosystem": "bitcoin",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -223,7 +251,9 @@
     "description": "Bitcoin infrastructure and Liquid Network",
     "url": "https://blockstream.com/",
     "ecosystem": "bitcoin",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -232,7 +262,10 @@
     "description": "Ordinals protocol documentation",
     "url": "https://ordinals.com/",
     "ecosystem": "bitcoin",
-    "categories": ["nft", "tools"],
+    "categories": [
+      "nft",
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1096,7 +1129,9 @@
     "description": "Hedera mobile wallet with staking, NFT support, Ledger",
     "url": "https://wallawallet.com/",
     "ecosystem": "hedera",
-    "categories": ["wallet"],
+    "categories": [
+      "wallet"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1105,7 +1140,10 @@
     "description": "Decentralized bridge for Hedera, Ethereum, Polygon, BSC",
     "url": "https://www.hashport.network/",
     "ecosystem": "hedera",
-    "categories": ["tools", "exchange"],
+    "categories": [
+      "tools",
+      "exchange"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1114,7 +1152,9 @@
     "description": "Hedera NFT marketplace, launchpad, staking",
     "url": "https://hashguild.xyz/",
     "ecosystem": "hedera",
-    "categories": ["nft"],
+    "categories": [
+      "nft"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1123,7 +1163,9 @@
     "description": "Commercial real estate RWA tokenization on Hedera",
     "url": "https://redswan.io/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1132,7 +1174,9 @@
     "description": "RWA tokenization toolkit, ERC-1400/3643, SEC compliant",
     "url": "https://hedera.com/asset-tokenization-studio",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1141,7 +1185,10 @@
     "description": "Hedera crowdfunding launchpad, IDO/INO",
     "url": "https://app.headstarter.org/",
     "ecosystem": "hedera",
-    "categories": ["defi", "nft"],
+    "categories": [
+      "defi",
+      "nft"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1150,7 +1197,9 @@
     "description": "Hedera borrowing protocol",
     "url": "https://hliquity.com/",
     "ecosystem": "hedera",
-    "categories": ["defi"],
+    "categories": [
+      "defi"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1159,7 +1208,9 @@
     "description": "AI application development on Hedera",
     "url": "https://hedera.com/blog/introducing-hedera-ai-studio",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1168,7 +1219,9 @@
     "description": "Privacy-preserving AI agents on Hedera HCS standards",
     "url": "https://hedera.opspawn.com/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1177,7 +1230,9 @@
     "description": "Product transparency, carbon tracking, EU Digital Product Passport",
     "url": "https://tracktrace.io/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1186,7 +1241,9 @@
     "description": "Avery Dennison carbon accounting for billions of items on Hedera",
     "url": "https://atma.io/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1195,7 +1252,9 @@
     "description": "Climate finance, tokenized carbon credits on Hedera",
     "url": "https://dovu.earth/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1204,7 +1263,9 @@
     "description": "Carbon standards body, Hedera Guardian integration",
     "url": "https://verra.org/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1213,7 +1274,9 @@
     "description": "Sustainability and ESG tokenization platform",
     "url": "https://hedera.com/guardian",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1222,7 +1285,9 @@
     "description": "Australian dollar stablecoin on Hedera",
     "url": "https://audd.io/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1231,7 +1296,9 @@
     "description": "Compliant stablecoin issuance toolkit",
     "url": "https://hedera.com/stablecoin-studio",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1240,7 +1307,9 @@
     "description": "Asset Tokenization Studio development partner",
     "url": "https://iobuilders.io/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1249,7 +1318,10 @@
     "description": "FCA-regulated digital securities on Hedera",
     "url": "https://archax.com/",
     "ecosystem": "hedera",
-    "categories": ["tools", "exchange"],
+    "categories": [
+      "tools",
+      "exchange"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1258,7 +1330,9 @@
     "description": "Decentralized identity on Hedera",
     "url": "https://earth.id/",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1267,7 +1341,9 @@
     "description": "Official Hedera dApp directory",
     "url": "https://hedera.com/ecosystem",
     "ecosystem": "hedera",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1510,7 +1586,9 @@
     "description": "Solana RPC, APIs, LaserStream infrastructure",
     "url": "https://helius.xyz/",
     "ecosystem": "solana",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1519,7 +1597,9 @@
     "description": "High-performance Solana RPC and nodes",
     "url": "https://triton.one/",
     "ecosystem": "solana",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1528,7 +1608,9 @@
     "description": "Multi-chain Solana blockchain explorer",
     "url": "https://solscan.io/",
     "ecosystem": "solana",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1537,7 +1619,10 @@
     "description": "Memecoin launchpad with bonding curve",
     "url": "https://pump.fun/",
     "ecosystem": "solana",
-    "categories": ["defi", "exchange"],
+    "categories": [
+      "defi",
+      "exchange"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1546,7 +1631,9 @@
     "description": "Automated vaults and lending on Solana",
     "url": "https://kamino.finance/",
     "ecosystem": "solana",
-    "categories": ["defi"],
+    "categories": [
+      "defi"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1555,7 +1642,10 @@
     "description": "Spot, perps, and lending on Solana",
     "url": "https://mango.markets/",
     "ecosystem": "solana",
-    "categories": ["defi", "exchange"],
+    "categories": [
+      "defi",
+      "exchange"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1564,7 +1654,10 @@
     "description": "DLMM and dynamic AMM on Solana",
     "url": "https://meteora.ag/",
     "ecosystem": "solana",
-    "categories": ["defi", "exchange"],
+    "categories": [
+      "defi",
+      "exchange"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1573,7 +1666,9 @@
     "description": "Real estate index trading on Solana",
     "url": "https://parcl.co/",
     "ecosystem": "solana",
-    "categories": ["defi"],
+    "categories": [
+      "defi"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1582,7 +1677,9 @@
     "description": "Cross-chain messaging and bridge",
     "url": "https://wormhole.com/",
     "ecosystem": "solana",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1591,7 +1688,9 @@
     "description": "Curated digital art NFT marketplace",
     "url": "https://exchange.art/",
     "ecosystem": "solana",
-    "categories": ["nft"],
+    "categories": [
+      "nft"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1600,7 +1699,9 @@
     "description": "Move-to-earn fitness game on Solana",
     "url": "https://genopets.me/",
     "ecosystem": "solana",
-    "categories": ["gaming"],
+    "categories": [
+      "gaming"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1609,7 +1710,9 @@
     "description": "P2E battle game on Solana",
     "url": "https://cyberfrogs.io/",
     "ecosystem": "solana",
-    "categories": ["gaming"],
+    "categories": [
+      "gaming"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1618,7 +1721,9 @@
     "description": "Space strategy game on Solana",
     "url": "https://defira.io/",
     "ecosystem": "solana",
-    "categories": ["gaming"],
+    "categories": [
+      "gaming"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1627,7 +1732,9 @@
     "description": "P2E RPG game on Solana",
     "url": "https://solchicks.io/",
     "ecosystem": "solana",
-    "categories": ["gaming"],
+    "categories": [
+      "gaming"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1636,7 +1743,9 @@
     "description": "Decentralized wireless network for IoT and 5G",
     "url": "https://www.helium.com/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1645,7 +1754,9 @@
     "description": "Protocol governance and ecosystem grants",
     "url": "https://www.helium.foundation/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1654,7 +1765,9 @@
     "description": "Helium Mobile operator and core technology",
     "url": "https://nova.xyz/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1663,7 +1776,9 @@
     "description": "LoRaWAN connectivity for IoT devices",
     "url": "https://docs.helium.com/iot",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1672,7 +1787,9 @@
     "description": "Device management and Data Credits",
     "url": "https://console.helium.com/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1681,7 +1798,9 @@
     "description": "5G/CBRS network, MOBILE token rewards",
     "url": "https://www.helium.com/5G",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1690,7 +1809,9 @@
     "description": "MVNO powered by decentralized Helium Network",
     "url": "https://hellohelium.com/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1699,7 +1820,9 @@
     "description": "Network and hotspot explorer",
     "url": "https://explorer.helium.com/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1708,7 +1831,9 @@
     "description": "HNT, MOBILE, Data Credits - non-custodial",
     "url": "https://heliumwallet.org/",
     "ecosystem": "helium",
-    "categories": ["wallet"],
+    "categories": [
+      "wallet"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1717,7 +1842,9 @@
     "description": "M-Series hardware with Helium LoRaWAN",
     "url": "https://www.particle.io/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1726,7 +1853,9 @@
     "description": "LoRaWAN roaming, maritime IoT",
     "url": "https://skynetiot.com/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1735,7 +1864,9 @@
     "description": "5G gateways, LoRaWAN hotspots",
     "url": "https://parleylabs.com/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1744,7 +1875,9 @@
     "description": "5G CBRS small cells for Helium",
     "url": "https://www.freedomfi.com/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1753,7 +1886,9 @@
     "description": "Helium hotspot distributor",
     "url": "https://www.calchipconnect.com/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -1762,7 +1897,9 @@
     "description": "Helium IoT indoor and outdoor hotspots",
     "url": "https://nebra.io/",
     "ecosystem": "helium",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 1,
     "logoUrl": ""
   },
@@ -3083,7 +3220,9 @@
     "description": "Native lending and Leverage Tokens on Base",
     "url": "https://www.seamlessprotocol.com/",
     "ecosystem": "base",
-    "categories": ["defi"],
+    "categories": [
+      "defi"
+    ],
     "tier": 2,
     "logoUrl": ""
   },
@@ -3092,7 +3231,9 @@
     "description": "Lending and borrowing on Base",
     "url": "https://moonwell.fi/",
     "ecosystem": "base",
-    "categories": ["defi"],
+    "categories": [
+      "defi"
+    ],
     "tier": 2,
     "logoUrl": ""
   },
@@ -3101,7 +3242,9 @@
     "description": "Base blockchain explorer",
     "url": "https://basescan.org/",
     "ecosystem": "base",
-    "categories": ["tools"],
+    "categories": [
+      "tools"
+    ],
     "tier": 2,
     "logoUrl": ""
   },
@@ -3110,7 +3253,9 @@
     "description": "NFT creation platform, Base-native",
     "url": "https://zora.co/",
     "ecosystem": "base",
-    "categories": ["nft"],
+    "categories": [
+      "nft"
+    ],
     "tier": 2,
     "logoUrl": ""
   },
@@ -3165,7 +3310,10 @@
     "description": "Perps trading on Synthetix (Optimism)",
     "url": "https://kwenta.io/",
     "ecosystem": "optimism",
-    "categories": ["defi", "exchange"],
+    "categories": [
+      "defi",
+      "exchange"
+    ],
     "tier": 2,
     "logoUrl": ""
   },
@@ -3174,7 +3322,9 @@
     "description": "NFT marketplace on Optimism",
     "url": "https://quix.co/",
     "ecosystem": "optimism",
-    "categories": ["nft"],
+    "categories": [
+      "nft"
+    ],
     "tier": 2,
     "logoUrl": ""
   },
@@ -3845,6 +3995,65 @@
     "logoUrl": ""
   },
   {
+    "name": "RWA.xyz",
+    "description": "RWA analytics and tokenized treasury aggregator",
+    "url": "https://app.rwa.xyz/",
+    "ecosystem": "rwa",
+    "categories": [
+      "tools",
+      "commerce"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Backed Finance",
+    "description": "Tokenized treasuries and ETFs (bTokens)",
+    "url": "https://backed.fi/",
+    "ecosystem": "rwa",
+    "categories": [
+      "defi",
+      "commerce"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Securitize",
+    "description": "Tokenization platform, BlackRock BUIDL transfer agent",
+    "url": "https://www.securitize.io/",
+    "ecosystem": "rwa",
+    "categories": [
+      "tools",
+      "commerce"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "ORIGYN",
+    "description": "RWA for luxury goods, fine art, digital twins",
+    "url": "https://www.origyn.ch/",
+    "ecosystem": "rwa",
+    "categories": [
+      "nft",
+      "commerce"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Inveniam",
+    "description": "Private asset data, valuation oracles, compliance",
+    "url": "https://inveniam.io/",
+    "ecosystem": "rwa",
+    "categories": [
+      "tools"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
     "name": "Art Blocks",
     "description": "Algorithmic generative art platform",
     "url": "https://www.artblocks.io/",
@@ -3919,6 +4128,143 @@
     "categories": [
       "nft",
       "commerce"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Audius",
+    "description": "Decentralized music streaming, creator ownership",
+    "url": "https://audius.org/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft",
+      "tools"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Opulous",
+    "description": "Music NFTs, royalty-backed DeFi loans for artists",
+    "url": "https://opulous.org/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft",
+      "defi"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Meteora (Audio)",
+    "description": "AI + blockchain audio NFTs, studio-quality",
+    "url": "https://meteora.audio/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Foundation",
+    "description": "Curated creator NFT marketplace",
+    "url": "https://foundation.app/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "SuperRare",
+    "description": "Curated digital art NFT marketplace",
+    "url": "https://superrare.com/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Rarible",
+    "description": "Creator-first NFT marketplace",
+    "url": "https://rarible.com/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Dassu",
+    "description": "Revenue split automation for creators",
+    "url": "https://dassu.io/",
+    "ecosystem": "creator",
+    "categories": [
+      "tools"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Koji",
+    "description": "Creator monetization apps",
+    "url": "https://withkoji.com/",
+    "ecosystem": "creator",
+    "categories": [
+      "tools"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Medallion XLN",
+    "description": "StarkNet creator economy, 97% revenue to creators",
+    "url": "https://medallionxln.com/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft",
+      "tools"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "CANI",
+    "description": "CaniStore, CaniPlay for musicians",
+    "url": "https://canistore.io/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft",
+      "tools"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Fxhash",
+    "description": "Tezos generative art marketplace",
+    "url": "https://fxhash.xyz/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft"
+    ],
+    "tier": 5,
+    "logoUrl": ""
+  },
+  {
+    "name": "Plottables",
+    "description": "Interactive coding art platform",
+    "url": "https://plottables.io/",
+    "ecosystem": "creator",
+    "categories": [
+      "nft",
+      "tools"
     ],
     "tier": 5,
     "logoUrl": ""

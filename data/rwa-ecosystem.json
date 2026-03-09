@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-05",
+    "description": "RWA (Real-World Assets) tokenization: treasuries, real estate, credit, art, compliance"
+  },
+  "categories": {
+    "treasuries": [
+      { "name": "Ondo Finance", "url": "https://ondo.finance/", "description": "OUSG, USDY tokenized treasuries" },
+      { "name": "BlackRock BUIDL", "url": "https://www.blackrock.com/", "description": "Tokenized Treasury fund via Securitize" },
+      { "name": "Franklin Templeton BENJI", "url": "https://www.franklintempleton.com/", "description": "OnChain U.S. Government Money Fund" },
+      { "name": "Securitize", "url": "https://securitize.io/", "description": "Tokenization platform, BUIDL transfer agent" },
+      { "name": "RWA.xyz", "url": "https://rwa.xyz/", "description": "RWA analytics, treasury aggregator" }
+    ],
+    "realEstate": [
+      { "name": "RealT", "url": "https://realt.co/", "description": "Tokenized U.S. real estate" },
+      { "name": "Parcl", "url": "https://parcl.co/", "description": "Real estate index derivatives (Solana)" },
+      { "name": "RedSwan CRE", "url": "https://redswan.io/", "description": "Commercial real estate tokenization (Hedera)" }
+    ],
+    "credit": [
+      { "name": "Centrifuge", "url": "https://centrifuge.io/", "description": "Asset financing, RWA Launchpad" },
+      { "name": "Goldfinch", "url": "https://goldfinch.finance/", "description": "Decentralized credit protocol" },
+      { "name": "Maple", "url": "https://www.maple.finance/", "description": "Institutional on-chain lending" }
+    ],
+    "artCollectibles": [
+      { "name": "Masterworks", "url": "https://masterworks.com/", "description": "Fractional fine art investment" },
+      { "name": "ORIGYN", "url": "https://www.origyn.ch/", "description": "Luxury goods, fine art, digital twins" }
+    ],
+    "compliance": [
+      { "name": "Polymath", "url": "https://polymath.network/", "description": "Securities token issuance" },
+      { "name": "Tokeny", "url": "https://tokeny.com/", "description": "Enterprise tokenization, compliance" },
+      { "name": "Inveniam", "url": "https://inveniam.io/", "description": "Private asset data, valuation oracles" }
+    ]
+  }
+}

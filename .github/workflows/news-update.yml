@@ -1,6 +1,6 @@
-# Update bonsai-registry-news.json on a schedule (every 4 hours)
-# Enables "live-ish" news in the Bonsai Registry
-name: News Update
+# Full Bonsai Registry pipeline: sync → deep-dive → update-export → news
+# Runs every 4 hours; commits export, extended, and news files
+name: Registry Pipeline
 
 permissions:
   contents: write
@@ -11,7 +11,7 @@ on:
   workflow_dispatch:  # Manual trigger
 
 jobs:
-  update-news:
+  pipeline:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,17 +24,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch news and update
-        run: node scripts/news-aggregator.js
+      - name: Run full pipeline
+        run: npm run pipeline
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add bonsai-registry-news.json
+          git add bonsai-registry-news.json bonsai-registry-export-*.json bonsai-registry-extended.json
           if git diff --staged --quiet; then
             echo "No changes"
           else
-            git commit -m "chore: update news feed [automated]"
+            git commit -m "chore: pipeline update — export, extended, news [automated]"
             git push
           fi

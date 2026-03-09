@@ -35,13 +35,17 @@ bonsai-registry/
 
 ## Registry Export & Sync
 
-The `index.html` registry (especially the ICP section) is the source of truth. To keep `bonsai-registry-export-2026-03-05.json` in sync for import into your application, run:
+The `index.html` registry (especially the ICP section) is the source of truth. Run the full pipeline before each deploy:
+
+```bash
+npm run pipeline
+```
+
+This runs: sync-export → deep-dive → update-export → news. For sync only (after ICP section edits):
 
 ```bash
 npm run sync-export
 ```
-
-Run this after any changes to the ICP section in `index.html`.
 
 ## Deep Dive: Comprehensive ICP Ecosystem Data
 

@@ -994,6 +994,9 @@
                 <a href="#tier-4-commerce-solutions" class="desktop-nav-link" data-section="tier-4-commerce-solutions">
                     <i class="fas fa-star mr-2"></i>🌟 Tier 4: Specialized Chains (51-75)
                 </a>
+                <a href="#news-scam-section" class="desktop-nav-link" data-section="news-scam-section">
+                    <i class="fas fa-newspaper mr-2"></i>News &amp; Alerts
+                </a>
             </div>
             <div class="mt-3 pt-3 border-t border-gray-700">
                 <div class="text-xs text-gray-400 text-center">75 Blockchains</div>
@@ -1043,6 +1046,12 @@
                     </button>
                     <button class="filter-btn" data-filter="exchange">
                         <i class="fas fa-exchange-alt mr-2"></i>Exchanges
+                    </button>
+                    <button class="filter-btn" data-filter="rwa">
+                        <i class="fas fa-landmark mr-2"></i>RWA
+                    </button>
+                    <button class="filter-btn" data-filter="creator">
+                        <i class="fas fa-paint-brush mr-2"></i>Creators
                     </button>
                 </div>
                 
@@ -1136,6 +1145,26 @@
 
         <!-- Directory Sections Grid -->
         <main class="space-y-16" id="directory-container">
+            <!-- ==================================================================== -->
+            <!-- NEWS & SCAM ALERTS (fetched from bonsai-registry-news.json) -->
+            <!-- ==================================================================== -->
+            <section id="news-scam-section" class="category-group">
+                <h2 class="text-2xl font-extrabold text-web3-primary mb-4 border-b-2 border-web3-primary pb-2">
+                    <i class="fas fa-newspaper mr-2"></i>News &amp; Scam Alerts
+                </h2>
+                <div id="news-scam-content" class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="category-subheader mb-3"><i class="fas fa-rss mr-2"></i>ICP &amp; Web3 News</h4>
+                        <div id="news-list" class="space-y-2 max-h-80 overflow-y-auto">Loading news...</div>
+                    </div>
+                    <div>
+                        <h4 class="category-subheader mb-3"><i class="fas fa-shield-alt mr-2 text-red-400"></i>Scam Alerts</h4>
+                        <div id="scam-list" class="space-y-2 max-h-80 overflow-y-auto">Loading alerts...</div>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">Auto-updated every 4 hours. <button id="refresh-news" class="text-web3-secondary hover:text-web3-primary underline">Refresh</button></p>
+            </section>
+
             <!-- ==================================================================== -->
             <!-- H2: TIER 1 FOUNDATION CHAINS (Protocols 1 - 16) - REFRESHED DATA -->
             <!-- ==================================================================== -->
@@ -4212,7 +4241,7 @@
                                     <h4 class="text-lg font-semibold text-white mb-1">TipCan (Creator Donations)</h4>
                                     <p class="text-xs text-gray-400">#donations #ToniqLabs #Cronic-NFT</p>
                                 </a>
-                                <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://t3kno-logic.xyz/" target="_blank">
+                                <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://t3kno-logic.xyz/?utm_source=bonsai-registry&utm_medium=registry" target="_blank">
                                     <h4 class="text-lg font-semibold text-white mb-1">Enchanted Bonsai Bazaar</h4>
                                     <p class="text-xs text-gray-400">#merch #Bonsai-Radio #RWA #T3kNo-Logic</p>
                                 </a>
@@ -5632,6 +5661,25 @@
                 <!-- RWA SECTION -->
                 <h3 class="text-2xl font-semibold text-web3-secondary mb-4 mt-8">Real World Assets (RWA) & Tokenization Infrastructure</h3>
                 <div class="category-group">
+                    <h4 class="category-subheader">Tokenized Treasuries & Yield</h4>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://ondo.finance/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Ondo Finance</h4>
+                            <p class="text-xs text-gray-400">#RWA #OUSG #USDY #treasuries</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://app.rwa.xyz/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">RWA.xyz</h4>
+                            <p class="text-xs text-gray-400">#RWA #analytics #treasuries #aggregator</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://backed.fi/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Backed Finance</h4>
+                            <p class="text-xs text-gray-400">#RWA #bToken #treasuries #ETFs</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://www.securitize.io/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Securitize</h4>
+                            <p class="text-xs text-gray-400">#RWA #BUIDL #tokenization #institutional</p>
+                        </a>
+                    </div>
                     <h4 class="category-subheader">Fractionalized Asset Platforms (Real Estate, Art, Collectibles)</h4>
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
                         <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://realt.co/" target="_blank">
@@ -5642,18 +5690,32 @@
                             <h4 class="text-lg font-semibold text-white mb-1">Masterworks (Tokenized Fine Art)</h4>
                             <p class="text-xs text-gray-400">#RWA #artists #finance #investing</p>
                         </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://www.origyn.ch/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">ORIGYN</h4>
+                            <p class="text-xs text-gray-400">#RWA #luxury #fine-art #digital-twins</p>
+                        </a>
                         <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://polymath.network/" target="_blank">
                             <h4 class="text-lg font-semibold text-white mb-1">Polymath (Securities Token Issuance)</h4>
                             <p class="text-xs text-gray-400">#RWA #compliance #enterprise #tools</p>
                         </a>
                     </div>
-                    
-                    <h4 class="category-subheader mt-6">Compliance & Token Issuance Tools</h4>
+                    <h4 class="category-subheader">Credit, Lending & Asset Financing</h4>
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
                         <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://centrifuge.io/" target="_blank">
-                            <h4 class="text-lg font-semibold text-white mb-1">Centrifuge (Asset Financing/Minting)</h4>
-                            <p class="text-xs text-gray-400">#RWA #finance #issuance #Polkadot</p>
+                            <h4 class="text-lg font-semibold text-white mb-1">Centrifuge</h4>
+                            <p class="text-xs text-gray-400">#RWA #credit #invoices #RWA-Launchpad</p>
                         </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://goldfinch.finance/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Goldfinch</h4>
+                            <p class="text-xs text-gray-400">#RWA #credit #emerging-markets #DeFi</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://www.maple.finance/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Maple Finance</h4>
+                            <p class="text-xs text-gray-400">#RWA #institutional #lending #credit</p>
+                        </a>
+                    </div>
+                    <h4 class="category-subheader">Compliance & Token Issuance Tools</h4>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
                         <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://tokeny.com/" target="_blank">
                             <h4 class="text-lg font-semibold text-white mb-1">Tokeny (Enterprise Tokenization)</h4>
                             <p class="text-xs text-gray-400">#RWA #enterprise #compliance #Ethereum</p>
@@ -5666,25 +5728,91 @@
                 </div>
 
                 <!-- Creator Tools Section -->
-                <h3 class="text-2xl font-semibold text-web3-secondary mb-4 mt-8">Creator Stores & Digital Goods</h3>
+                <h3 class="text-2xl font-semibold text-web3-secondary mb-4 mt-8">Web3 Creator Economy & Digital Goods</h3>
                 <div class="category-group">
-                    <h4 class="category-subheader">Visual Artist & Designer Platforms: Digital Creation Toolkit</h4>
-                    <div class="mt-4 border-l-4 border-web3-primary pl-4 py-2 bg-[#1a0a0a] rounded-lg mb-4">
-                        <p class="text-white font-bold mb-2">Generative & Computational Art Platforms</p>
-                        <div class="grid artist-card-grid gap-4">
-                            <a class="link-item block p-3 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://artblocks.io/" target="_blank">
-                                <h5 class="text-lg font-semibold text-white mb-1">Art Blocks (Premier Gen Art)</h5>
-                                <p class="text-xs text-gray-400">#artists #generative #coding #Ethereum</p>
-                            </a>
-                            <a class="link-item block p-3 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://fxhash.xyz/" target="_blank">
-                                <h5 class="text-lg font-semibold text-white mb-1">Fxhash (Tezos Gen Art)</h5>
-                                <p class="text-xs text-gray-400">#artists #generative #Tezos #market</p>
-                            </a>
-                            <a class="link-item block p-3 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://plottables.io/" target="_blank">
-                                <h5 class="text-lg font-semibold text-white mb-1">Plottables (Interactive Coding)</h5>
-                                <p class="text-xs text-gray-400">#artists #tools #coding #interactive</p>
-                            </a>
-                        </div>
+                    <h4 class="category-subheader">Generative & Computational Art</h4>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://artblocks.io/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Art Blocks</h4>
+                            <p class="text-xs text-gray-400">#creators #generative #coding #Ethereum</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://fxhash.xyz/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Fxhash</h4>
+                            <p class="text-xs text-gray-400">#creators #generative #Tezos</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://plottables.io/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Plottables</h4>
+                            <p class="text-xs text-gray-400">#creators #interactive #coding</p>
+                        </a>
+                    </div>
+                    <h4 class="category-subheader">Music & Audio Creators</h4>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://audius.org/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Audius</h4>
+                            <p class="text-xs text-gray-400">#creators #music #decentralized #streaming</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://opulous.org/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Opulous</h4>
+                            <p class="text-xs text-gray-400">#creators #music #NFTs #royalty-loans</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://catalog.works/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Catalog</h4>
+                            <p class="text-xs text-gray-400">#creators #music #single-edition #NFTs</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://royal.io/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Royal</h4>
+                            <p class="text-xs text-gray-400">#creators #music #royalty-tokens</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://meteora.audio/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Meteora (Audio)</h4>
+                            <p class="text-xs text-gray-400">#creators #audio #AI #NFTs</p>
+                        </a>
+                    </div>
+                    <h4 class="category-subheader">NFT Creation & Curated Marketplaces</h4>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://zora.co/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Zora</h4>
+                            <p class="text-xs text-gray-400">#creators #NFT #permissionless</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://manifold.xyz/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Manifold</h4>
+                            <p class="text-xs text-gray-400">#creators #NFT #smart-contracts</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://foundation.app/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Foundation</h4>
+                            <p class="text-xs text-gray-400">#creators #NFT #curated</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://superrare.com/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">SuperRare</h4>
+                            <p class="text-xs text-gray-400">#creators #NFT #digital-art</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://rarible.com/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Rarible</h4>
+                            <p class="text-xs text-gray-400">#creators #NFT #creator-first</p>
+                        </a>
+                    </div>
+                    <h4 class="category-subheader">Publishing, Revenue & Monetization</h4>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://mirror.xyz/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Mirror</h4>
+                            <p class="text-xs text-gray-400">#creators #publishing #crowdfunding</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://dassu.io/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Dassu</h4>
+                            <p class="text-xs text-gray-400">#creators #revenue-splits #automation</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://withkoji.com/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Koji</h4>
+                            <p class="text-xs text-gray-400">#creators #monetization #apps</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://medallionxln.com/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">Medallion XLN</h4>
+                            <p class="text-xs text-gray-400">#creators #StarkNet #97-revenue</p>
+                        </a>
+                        <a class="link-item block p-4 bg-web3-card hover:bg-red-900/40 rounded-lg transition duration-300 border border-transparent hover:border-web3-primary" href="https://canistore.io/" target="_blank">
+                            <h4 class="text-lg font-semibold text-white mb-1">CANI</h4>
+                            <p class="text-xs text-gray-400">#creators #musicians #CaniStore #CaniPlay</p>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -9514,6 +9642,7 @@
             
             // Navigation sections data
             const navigationSections = [
+                { id: 'news-scam-section', title: 'News & Alerts', icon: 'fas fa-newspaper' },
                 { id: 'tier-1-blockchains', title: '🔥 Tier 1: Foundation Chains (1-16)', icon: 'fas fa-fire' },
                 { id: 'tier-2-scaling', title: '⚡ Tier 2: Major L1s & L2s (17-33)', icon: 'fas fa-bolt' },
                 { id: 'tier-4-commerce-solutions', title: '🌟 Tier 4: Specialized Chains (51-75)', icon: 'fas fa-star' }
@@ -9609,5 +9738,68 @@
     </script>
     <!-- Bonsai Registry Monetization: Featured, Verified, Sponsored -->
     <script src="js/monetization.js"></script>
+    <script>
+    (function() {
+      const NEWS_URL = 'bonsai-registry-news.json';
+      const newsList = document.getElementById('news-list');
+      const scamList = document.getElementById('scam-list');
+      const refreshBtn = document.getElementById('refresh-news');
+
+      function esc(s) {
+        const d = document.createElement('div');
+        d.textContent = s || '';
+        return d.innerHTML;
+      }
+
+      function renderNews(data) {
+        if (!newsList) return;
+        const news = (data && data.news) || [];
+        if (news.length === 0) {
+          newsList.innerHTML = '<p class="text-gray-500 text-sm">No news items.</p>';
+          return;
+        }
+        newsList.innerHTML = news.slice(0, 15).map(n => `
+          <a href="${esc(n.url)}" target="_blank" rel="noopener" class="block p-3 rounded-lg bg-web3-card border border-transparent hover:border-web3-primary transition duration-200 link-item">
+            <div class="text-sm font-medium text-white line-clamp-2">${esc(n.title)}</div>
+            <div class="text-xs text-gray-500 mt-1">${esc(n.source || '')}</div>
+          </a>
+        `).join('');
+      }
+
+      function renderScams(data) {
+        if (!scamList) return;
+        const scams = (data && data.scamAlerts) || [];
+        if (scams.length === 0) {
+          scamList.innerHTML = '<p class="text-gray-500 text-sm">No active scam alerts.</p>';
+          return;
+        }
+        scamList.innerHTML = scams.map(s => `
+          <a href="${esc(s.url)}" target="_blank" rel="noopener" class="block p-3 rounded-lg border ${s.severity === 'high' ? 'border-red-500/50 bg-red-900/10' : 'border-amber-500/30 bg-amber-900/10'} hover:opacity-90 transition duration-200">
+            <div class="text-sm font-medium text-white">${esc(s.title)}</div>
+            <div class="text-xs text-gray-400 mt-1">${esc(s.description || '')}</div>
+            <span class="text-xs ${s.severity === 'high' ? 'text-red-400' : 'text-amber-400'}">${esc(s.severity || '')}</span>
+          </a>
+        `).join('');
+      }
+
+      function loadNews() {
+        if (newsList) newsList.innerHTML = 'Loading news...';
+        if (scamList) scamList.innerHTML = 'Loading alerts...';
+        fetch(NEWS_URL)
+          .then(r => r.ok ? r.json() : Promise.reject(new Error('Failed to load')))
+          .then(data => {
+            renderNews(data);
+            renderScams(data);
+          })
+          .catch(() => {
+            if (newsList) newsList.innerHTML = '<p class="text-gray-500 text-sm">News unavailable. Try again later.</p>';
+            if (scamList) scamList.innerHTML = '<p class="text-gray-500 text-sm">Alerts unavailable.</p>';
+          });
+      }
+
+      if (refreshBtn) refreshBtn.addEventListener('click', loadNews);
+      loadNews();
+    })();
+    </script>
 </body>
 </html>

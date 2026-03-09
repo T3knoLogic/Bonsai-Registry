@@ -11,6 +11,7 @@
     "deep-dive": "node scripts/deep-dive.js",
     "update-export": "node scripts/update-export.js",
     "news": "node scripts/news-aggregator.js",
+    "pipeline": "node scripts/full-pipeline.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
