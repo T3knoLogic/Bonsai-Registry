@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonsai / T3kNo-Logic — Valuation Reassessment March 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://cdn.shopify.com/s/files/1/0709/4953/5993/files/logo2_a05c26b6-7472-4a3e-b8bc-48dcb6ca4683.png">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #050508;
+            --card: rgba(18, 18, 22, 0.9);
+            --card-border: rgba(255, 51, 51, 0.25);
+            --primary: #FF3333;
+            --gold: #F5D547;
+            --muted: #8a8a9a;
+            --cyan: #00d4ff;
+        }
+        @keyframes neon-pulse {
+            0%, 100% { opacity: 1; filter: brightness(1); }
+            50% { opacity: 0.9; filter: brightness(1.15); }
+        }
+        @keyframes neon-glow-red {
+            0%, 100% { text-shadow: 0 0 4px var(--primary), 0 0 8px var(--primary), 0 0 12px rgba(255,51,51,0.5), 0 0 20px rgba(255,51,51,0.3); }
+            50% { text-shadow: 0 0 8px var(--primary), 0 0 16px var(--primary), 0 0 24px rgba(255,51,51,0.6), 0 0 40px rgba(255,51,51,0.4); }
+        }
+        @keyframes neon-glow-gold {
+            0%, 100% { text-shadow: 0 0 4px var(--gold), 0 0 8px var(--gold), 0 0 12px rgba(245,213,71,0.5), 0 0 20px rgba(245,213,71,0.3); }
+            50% { text-shadow: 0 0 8px var(--gold), 0 0 16px var(--gold), 0 0 24px rgba(245,213,71,0.6), 0 0 40px rgba(245,213,71,0.4); }
+        }
+        @keyframes neon-glow-multi {
+            0%, 100% { filter: drop-shadow(0 0 4px var(--primary)) drop-shadow(0 0 8px var(--gold)); }
+            50% { filter: drop-shadow(0 0 8px var(--primary)) drop-shadow(0 0 16px var(--gold)); }
+        }
+        @keyframes neon-border-glow {
+            0%, 100% { box-shadow: 0 0 4px rgba(255,51,51,0.3), inset 0 0 4px rgba(255,51,51,0.05); }
+            50% { box-shadow: 0 0 12px rgba(255,51,51,0.5), 0 0 24px rgba(255,51,51,0.2), inset 0 0 8px rgba(255,51,51,0.08); }
+        }
+        @keyframes mesh-breathe {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.85; transform: scale(1.02); }
+        }
+        body { font-family: 'Outfit', system-ui, sans-serif; background: var(--bg); color: #e8e8ec; line-height: 1.65; }
+        .mesh-bg { position: fixed; inset: 0; z-index: -1; background: radial-gradient(ellipse 100% 60% at 30% 0%, rgba(255,51,51,0.15) 0%, transparent 50%), radial-gradient(ellipse 80% 80% at 90% 90%, rgba(245,213,71,0.06) 0%, transparent 50%); animation: mesh-breathe 6s ease-in-out infinite; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 2rem 4rem; }
+        
+        .hero { text-align: center; padding: 4rem 2rem; }
+        .hero h1 { font-size: clamp(1.8rem, 4vw, 2.5rem); font-weight: 700; color: #fff; background: linear-gradient(135deg, #fff, var(--primary), var(--gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; filter: drop-shadow(0 0 6px rgba(255,51,51,0.25)) drop-shadow(0 0 10px rgba(245,213,71,0.15)); }
+        .hero .badge { display: inline-block; background: linear-gradient(135deg, var(--gold), #c9a91a); color: #000; padding: 0.4rem 1rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; margin-top: 1rem; text-transform: uppercase; letter-spacing: 0.08em; box-shadow: 0 0 12px rgba(245,213,71,0.6), 0 0 24px rgba(245,213,71,0.3); animation: neon-pulse 2.5s ease-in-out infinite; }
+        .hero .range-block { margin-top: 1.5rem; font-size: 1.4rem; }
+        .hero .range-block .low { color: var(--muted); text-shadow: 0 0 6px rgba(138,138,154,0.5), 0 0 12px rgba(138,138,154,0.3); animation: neon-pulse 4s ease-in-out infinite; }
+        .hero .range-block .mid { color: var(--gold); font-weight: 700; text-shadow: 0 0 6px var(--gold), 0 0 12px rgba(245,213,71,0.5); animation: neon-glow-gold 2.5s ease-in-out infinite; }
+        .hero .range-block .high { color: var(--primary); font-weight: 600; text-shadow: 0 0 6px var(--primary), 0 0 12px rgba(255,51,51,0.5); animation: neon-glow-red 2.5s ease-in-out infinite; }
+        .hero .date { color: var(--muted); font-size: 0.9rem; margin-top: 0.5rem; text-shadow: 0 0 4px rgba(138,138,154,0.3); }
+
+        section { margin-bottom: 3.5rem; }
+        h2 { font-size: 1.25rem; font-weight: 600; color: #fff; margin-bottom: 1.25rem; padding-bottom: 0.6rem; border-bottom: 1px solid rgba(255,51,51,0.3); text-shadow: 0 0 8px rgba(255,51,51,0.4), 0 0 16px rgba(255,51,51,0.2); animation: neon-pulse 5s ease-in-out infinite; }
+        .card { background: var(--card); border: 1px solid var(--card-border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.25rem; box-shadow: 0 0 8px rgba(255,51,51,0.1); transition: box-shadow 0.3s ease; }
+        .card:hover { box-shadow: 0 0 16px rgba(255,51,51,0.25), 0 0 32px rgba(255,51,51,0.1); animation: neon-border-glow 3s ease-in-out infinite; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        th, td { padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.06); }
+        th { color: var(--muted); font-weight: 500; text-shadow: 0 0 4px rgba(138,138,154,0.3); }
+        tr:last-child td { border-bottom: none; }
+        .chart-container { position: relative; height: 280px; margin: 1.5rem 0; }
+        .chart-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        @media (max-width: 700px) { .chart-row { grid-template-columns: 1fr; } }
+        .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; }
+        .stat { background: var(--card); border: 1px solid var(--card-border); border-radius: 10px; padding: 1rem; text-align: center; box-shadow: 0 0 8px rgba(255,51,51,0.08); transition: box-shadow 0.3s ease; }
+        .stat:hover { box-shadow: 0 0 16px rgba(255,51,51,0.2), 0 0 24px rgba(245,213,71,0.15); }
+        .stat-val { font-size: 1.5rem; font-weight: 700; color: var(--gold); text-shadow: 0 0 8px var(--gold), 0 0 16px rgba(245,213,71,0.4); animation: neon-glow-gold 3s ease-in-out infinite; }
+        .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.25rem; text-shadow: 0 0 4px rgba(138,138,154,0.3); }
+        .highlight { background: rgba(255,51,51,0.08); border-left: 4px solid var(--primary); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1rem 0; box-shadow: 0 0 12px rgba(255,51,51,0.15), inset 0 0 12px rgba(255,51,51,0.03); animation: neon-border-glow 4s ease-in-out infinite; }
+        ul { padding-left: 1.5rem; margin: 0.5rem 0; }
+        li { margin: 0.35rem 0; }
+        .muted { color: var(--muted); font-size: 0.9rem; text-shadow: 0 0 4px rgba(138,138,154,0.2); }
+        strong { text-shadow: 0 0 4px rgba(255,51,51,0.3), 0 0 8px rgba(245,213,71,0.2); }
+        .hero-img { max-width: 100%; width: 900px; border-radius: 12px; margin-bottom: 1.5rem; box-shadow: 0 0 20px rgba(255,51,51,0.2), 0 0 40px rgba(245,213,71,0.1); animation: neon-border-glow 5s ease-in-out infinite; }
+        .one-liner .card { box-shadow: 0 0 12px rgba(245,213,71,0.15), 0 0 24px rgba(255,51,51,0.1); animation: neon-border-glow 4s ease-in-out infinite; }
+        em { text-shadow: 0 0 6px rgba(245,213,71,0.3), 0 0 12px rgba(255,51,51,0.2); }
+    </style>
+</head>
+<body>
+    <div class="mesh-bg"></div>
+    <div class="container">
+        <div class="hero">
+            <img src="assets/bonsai-valuation-hero.png" alt="Bonsai Valuation March 2026" class="hero-img" />
+            <h1>Bonsai / T3kNo-Logic</h1>
+            <p class="badge">Valuation Reassessment — March 2026</p>
+            <div class="range-block">
+                <span class="low">$400K–$950K</span> → <span class="mid">$500K–$1.2M</span> fair market<br>
+                <span class="high">$1.6M+</span> strategic premium
+            </div>
+            <p class="date">Prepared March 12, 2026 | Reflects 10 new income products + full Gumroad deliverables package</p>
+        </div>
+
+        <section>
+            <h2>Ecosystem Flow</h2>
+            <div class="card" style="overflow: hidden; padding: 0;">
+                <img src="assets/bonsai-ecosystem-flow.png" alt="Bonsai ecosystem flow — products, infrastructure, distribution, revenue" style="width: 100%; display: block;" />
+            </div>
+            <p class="muted">Products → Infrastructure → Distribution → Revenue. Full stack operational.</p>
+        </section>
+
+        <section>
+            <h2>Executive Summary</h2>
+            <div class="card">
+                <p>Bonsai has evolved from a product portfolio into a <strong>fully instrumented income stack</strong>. Since the March 2025 assessment, we have:</p>
+                <ul>
+                    <li><strong>13 Gumroad products</strong> scoped with in-depth descriptions, pricing, and branding</li>
+                    <li><strong>Complete digital deliverables</strong> built: Creator Launch Kit, Machina preset packs (48 presets), Registry API server, NFT Matrix Pro fulfillment, Revelation Walls fulfillment</li>
+                    <li><strong>5 branded cover images</strong> for product listings</li>
+                    <li><strong>Bonsai Certified</strong> badge page and get-featured cross-links live</li>
+                    <li><strong>Product config sync</strong> to promotion agents (Substack, ai16z-shopify-agent)</li>
+                </ul>
+                <p class="muted" style="margin-top: 1rem;">The product pipeline is <em>ready to load</em>. Revenue potential has expanded from 3–4 core products to 13+ monetizable assets. This justifies a higher valuation floor and strengthens the growth narrative.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Valuation Progression</h2>
+            <div class="card" style="overflow: hidden; padding: 0;">
+                <img src="assets/bonsai-valuation-progression.png" alt="Valuation progression Mar 2025 to Mar 2027" style="width: 100%; display: block;" />
+            </div>
+            <p class="muted">Baseline (Mar 2025) → Current (Mar 2026) → 12‑month target with product launches</p>
+        </section>
+
+        <section>
+            <h2>Revenue Potential by Product (Year 1 Conservative)</h2>
+            <div class="card" style="overflow: hidden; padding: 0;">
+                <img src="assets/bonsai-revenue-streams.png" alt="Revenue potential by product stream" style="width: 100%; display: block;" />
+            </div>
+            <div class="card" style="margin-top: 1rem;">
+                <strong>Year 1 Total (Conservative):</strong> <span style="color: var(--gold); font-size: 1.1rem;">~$57.7K</span> — Sum of all product streams at 10–30% adoption. <strong>Upside (50% adoption):</strong> ~$120K+. <strong>Full rollout:</strong> $200K+ achievable.
+            </div>
+            <p class="muted">Annual revenue potential per product stream at conservative adoption (10–30% of addressable)</p>
+        </section>
+
+        <section>
+            <h2>Key Metrics</h2>
+            <div class="stat-grid">
+                <div class="stat"><div class="stat-val">13</div><div class="stat-label">Gumroad Products</div></div>
+                <div class="stat"><div class="stat-val">48</div><div class="stat-label">Machina Presets Built</div></div>
+                <div class="stat"><div class="stat-val">30+</div><div class="stat-label">Motoko Canisters</div></div>
+                <div class="stat"><div class="stat-val">75</div><div class="stat-label">Chain Registry</div></div>
+                <div class="stat"><div class="stat-val">9</div><div class="stat-label">Bonsai Collective</div></div>
+                <div class="stat"><div class="stat-val">4</div><div class="stat-label">Recurring Streams</div></div>
+            </div>
+        </section>
+
+        <section>
+            <h2>What Changed Since Last Assessment</h2>
+            <table>
+                <thead><tr><th>Area</th><th>Before</th><th>Now</th></tr></thead>
+                <tbody>
+                    <tr><td>Gumroad products</td><td>3–4 (NFT Matrix, Machina, Widget, Registry)</td><td><strong>13</strong> — Featured, Verified, Sponsored, Bonsai Certified, NFT Matrix Pro, 2× Machina presets, IC-MCP audit, Revelation Walls (print + licensing), Creator Launch Kit, Registry API, DSB white-label</td></tr>
+                    <tr><td>Digital deliverables</td><td>Scoped</td><td><strong>Built:</strong> Launch Kit HTML, 48 Machina presets (JSON), Registry API server, NFT Matrix Pro license generator, Revelation fulfillment structure</td></tr>
+                    <tr><td>Product branding</td><td>Partial</td><td><strong>5 cover images</strong> (Bonsai Registry, Certified, NFT Matrix Pro, Machina, Creator Kit)</td></tr>
+                    <tr><td>Recurring revenue</td><td>Registry only</td><td>Registry API ($99/mo), DSB license ($199/mo), Substack paid (planned)</td></tr>
+                    <tr><td>Registry monetization</td><td>Planned</td><td><strong>Live:</strong> get-featured, get-bonsai-certified pages; Featured $200, Verified $50, Sponsored $300, Certified $150</td></tr>
+                    <tr><td>Documentation</td><td>Scattered</td><td>REGISTRY_API_SPEC, SUBSTACK_PAID_TIER, BONSAI_TOKEN_PAYWALL, CREATOR_LAUNCH_KIT, WHITE_LABEL_LICENSING, GUMROAD_MANUAL_CREATION_PACK</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Asset Value Breakdown (Estimated)</h2>
+            <div class="card" style="overflow: hidden; padding: 0;">
+                <img src="assets/bonsai-asset-breakdown.png" alt="Asset value breakdown by category" style="width: 100%; display: block;" />
+            </div>
+            <p class="muted">Relative contribution to fair-market valuation by asset category</p>
+        </section>
+
+        <section>
+            <h2>Revenue Pipeline — Full Product List</h2>
+            <div class="card">
+                <table>
+                    <thead><tr><th>Product</th><th>Price</th><th>Type</th><th>Status</th></tr></thead>
+                    <tbody>
+                        <tr><td>Bonsai Registry Featured</td><td>$200</td><td>Placement</td><td>Ready</td></tr>
+                        <tr><td>Bonsai Registry Verified</td><td>$50</td><td>Badge</td><td>Ready</td></tr>
+                        <tr><td>Bonsai Registry Sponsored</td><td>$300</td><td>Placement</td><td>Ready</td></tr>
+                        <tr><td>Bonsai Certified</td><td>$150</td><td>Badge + Listing</td><td>Page live</td></tr>
+                        <tr><td>NFT Matrix Pro</td><td>$199/yr</td><td>Recurring</td><td>Deliverable built</td></tr>
+                        <tr><td>Machina Cyber Noir</td><td>$12</td><td>DLC</td><td>24 presets built</td></tr>
+                        <tr><td>Machina Heirloom Wild</td><td>$12</td><td>DLC</td><td>24 presets built</td></tr>
+                        <tr><td>IC-MCP Canister Audit</td><td>$999</td><td>Service</td><td>Ready</td></tr>
+                        <tr><td>Revelation Walls Print</td><td>$49</td><td>Digital</td><td>Fulfillment ready</td></tr>
+                        <tr><td>Creator Launch Kit</td><td>$299</td><td>Bundle</td><td>HTML + checklist built</td></tr>
+                        <tr><td>Registry API</td><td>$99/mo</td><td>Recurring</td><td>Server built</td></tr>
+                        <tr><td>DSB White-Label</td><td>$199/mo</td><td>Recurring</td><td>Docs ready</td></tr>
+                        <tr><td>Revelation Walls Licensing</td><td>Custom</td><td>Enterprise</td><td>Ready</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Revenue at Scale (Scenarios)</h2>
+            <div class="card">
+                <table>
+                    <thead><tr><th>Scenario</th><th>Year 1 Revenue</th><th>4× Multiple</th><th>Notes</th></tr></thead>
+                    <tbody>
+                        <tr><td>Conservative (10–30% adoption)</td><td>~$58K</td><td>$230K–$240K</td><td>Current model; all products live</td></tr>
+                        <tr><td>Moderate (30–50% adoption)</td><td>~$120K</td><td>$360K–$480K</td><td>Registry + API + 2–3 audit clients</td></tr>
+                        <tr><td>Aggressive (50%+ adoption)</td><td>$200K+</td><td>$600K–$800K</td><td>Full rollout; DSB license; Substack paid</td></tr>
+                        <tr><td>Strategic (acquirer integration)</td><td>$300K+</td><td>$1M+</td><td>Bazaar + Registry + product suite bundled</td></tr>
+                    </tbody>
+                </table>
+                <p class="muted" style="margin-top: 1rem;">Revenue-based valuation uses 3–4× for micro-SaaS; 4–6× for differentiated niches. Bonsai qualifies for growth premium due to 13-product breadth and ICP/RWA positioning.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Valuation Methodology (Updated)</h2>
+            <table>
+                <thead><tr><th>Scenario</th><th>Previous (Mar 2025)</th><th>Current (Mar 2026)</th><th>Rationale</th></tr></thead>
+                <tbody>
+                    <tr><td>Conservative (asset cost)</td><td>$350K–$600K</td><td><strong>$450K–$750K</strong></td><td>13 products + built deliverables + 5 cover images = higher rebuild cost</td></tr>
+                    <tr><td>Revenue-based (3–4×)</td><td>$250K–$500K</td><td><strong>$300K–$600K</strong></td><td>Expanded pipeline supports higher profit ceiling</td></tr>
+                    <tr><td>Growth premium (4–6×)</td><td>$500K–$950K</td><td><strong>$550K–$1.2M</strong></td><td>Product breadth + operational readiness = differentiated</td></tr>
+                    <tr><td>Strategic premium</td><td>+25–55%</td><td><strong>+30–60%</strong></td><td>Full stack + 13 revenue levers = acquirer interest</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Growth Path (12 Months)</h2>
+            <div class="card" style="overflow: hidden; padding: 0;">
+                <img src="assets/bonsai-growth-path.png" alt="Growth path phases 0-3mo, 3-6mo, 6-12mo" style="width: 100%; display: block;" />
+            </div>
+            <div class="highlight">
+                <strong>Phase 1 (0–3 mo):</strong> Load 13 products to Gumroad. Launch Registry placements + Bonsai Certified. Target: +$75–200K valuation.<br>
+                <strong>Phase 2 (3–6 mo):</strong> NFT Matrix Pro, Machina presets, Creator Launch Kit, IC-MCP audit, Revelation Walls. Target: +$100–250K.<br>
+                <strong>Phase 3 (6–12 mo):</strong> Registry API, DSB white-label, Substack paid, $BONSAI tiers. Target: +$75–150K.
+            </div>
+            <p><strong>Cumulative path:</strong> $500K–$1.2M today → <strong>$750K–$1.8M</strong> within 12 months.</p>
+        </section>
+
+        <section>
+            <h2>Value Drivers (Updated)</h2>
+            <ul>
+                <li><strong>Product pipeline breadth</strong> — 13 monetizable assets vs. 3–4 previously</li>
+                <li><strong>Built deliverables</strong> — Not just scoped; Creator Kit, presets, API server, license keys ready</li>
+                <li><strong>Recurring revenue design</strong> — Registry API, DSB license, NFT Matrix Pro, Substack paid</li>
+                <li><strong>Operational readiness</strong> — gumroad-deliverables/ package; self-service load to Gumroad</li>
+                <li><strong>Differentiated NFT Matrix</strong> — 28+ chains, no subscription, Pro tier ready</li>
+                <li><strong>$BONSAI token</strong> — Odin.Fun; BONSAI10 utility live; paywall tiers documented</li>
+                <li><strong>Revelation Walls + Candace Marquette</strong> — Print + licensing products ready</li>
+                <li><strong>ICP + RWA</strong> — Bazaar airdrop, Principal ID checkout, Drop-Shipping-Beast</li>
+                <li><strong>Integrated ecosystem</strong> — Software, merch, radio, marketplace, token, newsletter, discovery</li>
+                <li><strong>Substantial build cost</strong> — 30+ canisters, virtual gallery, Registry, Substack, full deliverables package</li>
+            </ul>
+        </section>
+
+        <section class="one-liner">
+            <h2>One-Liner for Investors</h2>
+            <div class="card">
+                <p><em>"Bonsai is the creator commerce layer on ICP — NFT tooling, merch with RWA, 24/7 radio, a token, and discovery. We've built 13 revenue products (Registry placements, Bonsai Certified, NFT Matrix Pro, Machina presets, Creator Launch Kit, Registry API, IC-MCP audit, Revelation Walls, DSB white-label) with full deliverables ready for Gumroad. Target: $1M+ valuation within 12 months, with upside to $1.8M from product launches."</em></p>
+            </div>
+        </section>
+
+        <p class="muted" style="text-align: center; margin-top: 3rem;">Bonsai / T3kNo-Logic — Valuation Reassessment — March 12, 2026</p>
+    </div>
+
+</body>
+</html>
