@@ -221,7 +221,7 @@ importers:
         version: 4.7.0(vite@5.4.21(@types/node@20.19.24))
       autoprefixer:
         specifier: ^10.4.20
-        version: 10.4.21(postcss@8.5.6)
+        version: 10.4.21(postcss@8.5.10)
       dotenv:
         specifier: ^16.5.0
         version: 16.6.1
@@ -229,8 +229,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0
       postcss:
-        specifier: ^8.4.41
-        version: 8.5.6
+        specifier: ^8.5.10
+        version: 8.5.10
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.18
@@ -398,6 +398,7 @@ packages:
 
   '@dfinity/agent@3.3.1':
     resolution: {integrity: sha512-U1zWIiCgJmxNet2NpKN+2UgOcO/OFC+FqGEpIsvu964eH7FeEMagmSZ5xTIsXSL9sN0mR7gY5Fuz+bv5XSBJQg==}
+    deprecated: 'This package has been deprecated. Use @icp-sdk/core/agent instead. Migration guide: https://js.icp.build/core/latest/upgrading/v5'
     peerDependencies:
       '@dfinity/candid': 3.3.1
       '@dfinity/principal': 3.3.1
@@ -405,6 +406,7 @@ packages:
 
   '@dfinity/auth-client@3.3.1':
     resolution: {integrity: sha512-Cxf8dlWzxG9mgRzEesuf4cRVCAMrIhlRKw54bc1CNceSobkhpo9Hbz4bSqD02zddKD+G69KAQR3z5r43wKi8CA==}
+    deprecated: This package has been deprecated. Its functionality is now part of `@icp-sdk/auth` (https://js.icp.build/auth), under the `client` submodule.
     peerDependencies:
       '@dfinity/agent': 3.3.1
       '@dfinity/identity': 3.3.1
@@ -412,6 +414,7 @@ packages:
 
   '@dfinity/candid@3.3.1':
     resolution: {integrity: sha512-BOvhZhQarrpA5ErwLwXW/M28nSx3e0ZlV0iyJ+MvH6SkFcZqATVBPA0rVn57uDtMFboT8TzlA3RoW+YBzHxLJQ==}
+    deprecated: 'This package has been deprecated. Use @icp-sdk/core/candid instead. Migration guide: https://js.icp.build/core/latest/upgrading/v5'
     peerDependencies:
       '@dfinity/principal': 3.3.1
 
@@ -420,6 +423,7 @@ packages:
 
   '@dfinity/identity-secp256k1@3.3.1':
     resolution: {integrity: sha512-rGgcCm9wLQkxuluPdfPcl1P/KrwehLmjVIXc1lEPE01C0H2YK4bofxYrxCnHQQl8a8Ioc1dkpOl7TBUtXTkKHw==}
+    deprecated: 'This package has been deprecated. Use @icp-sdk/core/identity/secp256k1 instead. Migration guide: https://js.icp.build/core/latest/upgrading/v5'
     peerDependencies:
       '@dfinity/candid': 3.3.1
       '@noble/curves': ^1.9.2
@@ -427,6 +431,7 @@ packages:
 
   '@dfinity/identity@3.3.1':
     resolution: {integrity: sha512-c+Grr7Mc7RephqBzRpdtySDg1to9pitb0wakXSk8902yg3BVc5vAsmbA3S1WwriY8+AMB06Dy2IZl/9Hot/Yhw==}
+    deprecated: 'This package has been deprecated. Use @icp-sdk/core/identity instead. Migration guide: https://js.icp.build/core/latest/upgrading/v5'
     peerDependencies:
       '@dfinity/agent': 3.3.1
       '@dfinity/candid': 3.3.1
@@ -436,6 +441,7 @@ packages:
 
   '@dfinity/principal@3.3.1':
     resolution: {integrity: sha512-UWloNRbDHSwVV/gec0CrtWm/cHODPgu+jgwn5iERheVwYCEp+yGXVIssUkJeN6wFxraqqCFcoBUvg7vtWM+GBg==}
+    deprecated: 'This package has been deprecated. Use @icp-sdk/core/principal instead. Migration guide: https://js.icp.build/core/latest/upgrading/v5'
 
   '@dimforge/rapier3d-compat@0.12.0':
     resolution: {integrity: sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==}
@@ -1736,8 +1742,8 @@ packages:
     resolution: {integrity: sha512-ik3ZgC9dY/lYVVM++OISsaYDeg1tb0VtP5uL3ouh1koGOaUMDPpbFIei4JkFimWUFPn90sbMNMXQAIVOlnYKJA==}
     engines: {node: '>=10'}
 
-  asn1js@3.0.6:
-    resolution: {integrity: sha512-UOCGPYbl0tv8+006qks/dTgV9ajs97X2p0FAbyS2iyCRrmLSRolDaHdp+v/CLgnzHc3fVB+CwYiUmei7ndFcgA==}
+  asn1js@3.0.10:
+    resolution: {integrity: sha512-S2s3aOytiKdFRdulw2qPE51MzjzVOisppcVv7jVFR+Kw0kxwvFrDcYA0h7Ndqbmj0HkMIXYWaoj7fli8kgx1eg==}
     engines: {node: '>=12.0.0'}
 
   autoprefixer@10.4.21:
@@ -2045,33 +2051,21 @@ packages:
     engines: {node: '>=14'}
 
   fraction.js@4.3.7:
-    resolution:
-      {
-        integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==,
-      }
+    resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
   framer-motion@12.34.3:
-    resolution:
-      {
-        integrity: sha512-v81ecyZKYO/DfpTwHivqkxSUBzvceOpoI+wLfgCgoUIKxlFKEXdg0oR9imxwXumT4SFy8vRk9xzJ5l3/Du/55Q==,
-      }
+    resolution: {integrity: sha512-v81ecyZKYO/DfpTwHivqkxSUBzvceOpoI+wLfgCgoUIKxlFKEXdg0oR9imxwXumT4SFy8vRk9xzJ5l3/Du/55Q==}
     peerDependencies:
-      "@emotion/is-prop-valid": "*"
+      '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
     peerDependenciesMeta:
-      "@emotion/is-prop-valid":
+      '@emotion/is-prop-valid':
         optional: true
       react:
         optional: true
       react-dom:
         optional: true
-
-  fs.realpath@1.0.0:
-    resolution:
-      {
-        integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==,
-      }
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -2099,6 +2093,7 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glsl-noise@0.0.0:
@@ -2282,28 +2277,19 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
 
   motion-dom@12.34.3:
-    resolution:
-      {
-        integrity: sha512-sYgFe+pR9aIM7o4fhs2aXtOI+oqlUd33N9Yoxcgo1Fv7M20sRkHtCmzE/VRNIcq7uNJ+qio+Xubt1FXH3pQ+eQ==,
-      }
+    resolution: {integrity: sha512-sYgFe+pR9aIM7o4fhs2aXtOI+oqlUd33N9Yoxcgo1Fv7M20sRkHtCmzE/VRNIcq7uNJ+qio+Xubt1FXH3pQ+eQ==}
 
   motion-utils@12.29.2:
-    resolution:
-      {
-        integrity: sha512-G3kc34H2cX2gI63RqU+cZq+zWRRPSsNIOjpdl9TN4AQwC4sgwYPl/Q/Obf/d53nOm569T0fYK+tcoSV50BWx8A==,
-      }
+    resolution: {integrity: sha512-G3kc34H2cX2gI63RqU+cZq+zWRRPSsNIOjpdl9TN4AQwC4sgwYPl/Q/Obf/d53nOm569T0fYK+tcoSV50BWx8A==}
 
   motion@12.34.3:
-    resolution:
-      {
-        integrity: sha512-xZIkBGO7v/Uvm+EyaqYd+9IpXu0sZqLywVlGdCFrrMiaO9JI4Kx51mO9KlHSWwll+gZUVY5OJsWgYI5FywJ/tw==,
-      }
+    resolution: {integrity: sha512-xZIkBGO7v/Uvm+EyaqYd+9IpXu0sZqLywVlGdCFrrMiaO9JI4Kx51mO9KlHSWwll+gZUVY5OJsWgYI5FywJ/tw==}
     peerDependencies:
-      "@emotion/is-prop-valid": "*"
+      '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
     peerDependenciesMeta:
-      "@emotion/is-prop-valid":
+      '@emotion/is-prop-valid':
         optional: true
       react:
         optional: true
@@ -2322,8 +2308,8 @@ packages:
       react: '*'
       react-dom: '*'
 
-  nanoid@3.3.11:
-    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+  nanoid@3.3.12:
+    resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -2431,8 +2417,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.5.6:
-    resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
+  postcss@8.5.10:
+    resolution: {integrity: sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   potpack@1.0.2:
@@ -3150,7 +3136,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      asn1js: 3.0.6
+      asn1js: 3.0.10
     transitivePeerDependencies:
       - '@dfinity/principal'
 
@@ -4397,20 +4383,20 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  asn1js@3.0.6:
+  asn1js@3.0.10:
     dependencies:
       pvtsutils: 1.3.6
       pvutils: 1.1.5
       tslib: 2.8.1
 
-  autoprefixer@10.4.21(postcss@8.5.6):
+  autoprefixer@10.4.21(postcss@8.5.10):
     dependencies:
       browserslist: 4.27.0
       caniuse-lite: 1.0.30001752
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
-      postcss: 8.5.6
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
 
   balanced-match@1.0.2: {}
@@ -4714,8 +4700,6 @@ snapshots:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
-  fs.realpath@1.0.0: {}
-
   fsevents@2.3.3:
     optional: true
 
@@ -4915,7 +4899,7 @@ snapshots:
       stacktrace-js: 2.0.2
       stylis: 4.3.6
 
-  nanoid@3.3.11: {}
+  nanoid@3.3.12: {}
 
   next-themes@0.4.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
@@ -4953,28 +4937,28 @@ snapshots:
 
   pirates@4.0.7: {}
 
-  postcss-import@15.1.0(postcss@8.5.6):
+  postcss-import@15.1.0(postcss@8.5.10):
     dependencies:
-      postcss: 8.5.6
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.11
 
-  postcss-js@4.1.0(postcss@8.5.6):
+  postcss-js@4.1.0(postcss@8.5.10):
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.5.6
+      postcss: 8.5.10
 
-  postcss-load-config@6.0.1(jiti@1.21.7)(postcss@8.5.6):
+  postcss-load-config@6.0.1(jiti@1.21.7)(postcss@8.5.10):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
       jiti: 1.21.7
-      postcss: 8.5.6
+      postcss: 8.5.10
 
-  postcss-nested@6.2.0(postcss@8.5.6):
+  postcss-nested@6.2.0(postcss@8.5.10):
     dependencies:
-      postcss: 8.5.6
+      postcss: 8.5.10
       postcss-selector-parser: 6.1.2
 
   postcss-selector-parser@6.0.10:
@@ -4989,9 +4973,9 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.5.6:
+  postcss@8.5.10:
     dependencies:
-      nanoid: 3.3.11
+      nanoid: 3.3.12
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -5372,11 +5356,11 @@ snapshots:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.6
-      postcss-import: 15.1.0(postcss@8.5.6)
-      postcss-js: 4.1.0(postcss@8.5.6)
-      postcss-load-config: 6.0.1(jiti@1.21.7)(postcss@8.5.6)
-      postcss-nested: 6.2.0(postcss@8.5.6)
+      postcss: 8.5.10
+      postcss-import: 15.1.0(postcss@8.5.10)
+      postcss-js: 4.1.0(postcss@8.5.10)
+      postcss-load-config: 6.0.1(jiti@1.21.7)(postcss@8.5.10)
+      postcss-nested: 6.2.0(postcss@8.5.10)
       postcss-selector-parser: 6.1.2
       resolve: 1.22.11
       sucrase: 3.35.0
@@ -5514,7 +5498,7 @@ snapshots:
   vite@5.4.21(@types/node@20.19.24):
     dependencies:
       esbuild: 0.21.5
-      postcss: 8.5.6
+      postcss: 8.5.10
       rollup: 4.52.5
     optionalDependencies:
       '@types/node': 20.19.24
